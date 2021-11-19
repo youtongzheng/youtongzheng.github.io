@@ -15,4 +15,4 @@ I enjoy watching all kinds of sports (soccer, MMA, basketball, table tennis ...)
 Update
 ======
 
-July 2021: I move to the Princeton University and GFDL as an Associate Research Scholar
+**July 2021**: I move to the Princeton University and GFDL as an Associate Research Scholar
