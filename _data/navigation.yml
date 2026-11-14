@@ -1,0 +1,19 @@
+# Main navigation links
+main:
+  - title: "Group"
+    url: /group/
+
+  - title: "Publications"
+    url: /publications/
+
+  - title: "Teaching"
+    url: /teaching/
+
+  - title: "CV"
+    url: /cv/
+
+  - title: "News"
+    url: /news/
+
+  - title: "Live Weather"
+    url: /weather/
