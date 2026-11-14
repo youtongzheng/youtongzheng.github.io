@@ -4,29 +4,29 @@ permalink: /weather/
 author_profile: true
 ---
 
-Live maps from NOAA. Each image reloads by itself while this page is open: radar every 2 minutes, satellite every 5, and weather maps every 30. Click an image for its source page.
+Live maps from NOAA. Radar and satellite images are animated loops of the most recent hours; the weather maps are the latest official analysis and forecast. Every image reloads by itself while this page is open. Click an image for its source page.
 
 ### Houston radar (KHGX)
 <a href="https://radar.weather.gov/station/khgx/standard"><img class="live" data-refresh="2" src="https://radar.weather.gov/ridge/standard/KHGX_loop.gif" alt="Houston radar loop"></a>
 <small class="stamp"></small>
 
-### GOES-19 GeoColor satellite image (continental U.S.)
-<a href="https://www.star.nesdis.noaa.gov/GOES/conus.php?sat=G19"><img class="live" data-refresh="5" src="https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg" alt="GOES-19 GeoColor"></a>
+### GOES-19 GeoColor satellite loop (continental U.S.)
+<a href="https://www.star.nesdis.noaa.gov/GOES/conus_band.php?sat=G19&band=GEOCOLOR&length=24"><img class="live" data-refresh="15" src="https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/GOES19-CONUS-GEOCOLOR-625x375.gif" alt="GOES-19 GeoColor loop"></a>
 <small class="stamp"></small>
 
-### GOES-19 water vapor imagery (band 9)
-<a href="https://www.star.nesdis.noaa.gov/GOES/conus.php?sat=G19"><img class="live" data-refresh="5" src="https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/09/1250x750.jpg" alt="GOES-19 water vapor"></a>
+### GOES-19 upper-level water vapor loop (band 8)
+<a href="https://www.star.nesdis.noaa.gov/GOES/conus_band.php?sat=G19&band=08&length=24"><img class="live" data-refresh="15" src="https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/08/GOES19-CONUS-08-625x375.gif" alt="GOES-19 water vapor loop"></a>
 <small class="stamp"></small>
 
 ### U.S. radar mosaic
 <a href="https://radar.weather.gov/"><img class="live" data-refresh="2" src="https://radar.weather.gov/ridge/standard/CONUS_loop.gif" alt="U.S. radar mosaic loop"></a>
 <small class="stamp"></small>
 
-### NWS surface analysis
+### NWS surface analysis (latest, issued every 3 hours)
 <a href="https://www.wpc.ncep.noaa.gov/html/sfc-zoom.php"><img class="live" data-refresh="30" src="https://www.wpc.ncep.noaa.gov/sfc/namussfcwbg.gif" alt="NWS surface analysis"></a>
 <small class="stamp"></small>
 
-### WPC short-range forecast (day 1)
+### WPC short-range forecast (latest day-1 forecast)
 <a href="https://www.wpc.ncep.noaa.gov/basicwx/basicwx_ndfd.php"><img class="live" data-refresh="30" src="https://www.wpc.ncep.noaa.gov/basicwx/92fndfd.gif" alt="WPC day 1 forecast"></a>
 <small class="stamp"></small>
 

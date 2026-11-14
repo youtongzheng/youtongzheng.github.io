@@ -6,6 +6,12 @@ Jekyll site (academicpages template), built by GitHub Pages from `master`.
 
 The site promotes Youtong Zheng and the WEAVE Lab and attracts students, postdocs, and collaborators. Keep it simple and inviting. Add what helps a visitor want to join or collaborate; leave out detail that only matters for a dossier (enrollments, committee lists, evaluation scores, pending or declined grants, every conference abstract).
 
+## Fixed framework (do not redesign)
+
+The layout, menu, and page structure are settled (as of 2026-11-14): Home, Group, Publications, Teaching & Mentoring, About the PI, News, Live Weather, on the academicpages theme. Future requests are small updates: add or correct information, adjust wording, fix a section. Do not change the theme, the menu structure, or the overall style unless Y. Zheng explicitly asks for a redesign.
+
+The home page leads with the lab's core message: right answers for the right reasons, now "physics or shortcut?" in the AI-agent era.
+
 ## Where content lives
 
 | Request | File |
@@ -15,7 +21,7 @@ The site promotes Youtong Zheng and the WEAVE Lab and attracts students, postdoc
 | Papers | `_data/publications.yml` (newest first) |
 | Manuscripts in review | `_data/manuscripts.yml` |
 | Courses, mentoring (images in `images/teaching/`) | `_pages/teaching.html` |
-| Education, positions, awards, service, media | `_pages/cv.md` |
+| About the PI: education, positions, awards, service, media | `_pages/cv.md` (URL /about-pi/) |
 | All news | `_pages/news.md` (keep the latest ~7 also on the home page) |
 | Live weather | `_pages/weather.md` |
 | Sidebar profile, menu | `_config.yml` (`author:`), `_data/navigation.yml` |

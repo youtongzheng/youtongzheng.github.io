@@ -1,8 +1,9 @@
 ---
-title: "CV"
-permalink: /cv/
+title: "About the PI"
+permalink: /about-pi/
 author_profile: true
 redirect_from:
+  - /cv/
   - /resume
 ---
 
