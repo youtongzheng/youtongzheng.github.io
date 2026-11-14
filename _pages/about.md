@@ -12,21 +12,11 @@ redirect_from:
 
 Welcome to the research group of **Youtong Zheng (郑又通)** in the [Department of Earth and Atmospheric Sciences](https://www.uh.edu/nsm/earth-atmospheric/) at the University of Houston.
 
-We study clouds, convection, and extreme weather, and we ask one question of every model we use: **does it get the right answer for the right physical reason?** The name WEAVE reflects how we answer it. Field and satellite observations, theory, high-resolution simulations, machine learning, and now AI agents each see part of the picture; woven together, they can test whether a model's success is real.
+**We test whether weather and climate models get the right answer for the right physical reason.** We study clouds and storms, from the stratocumulus and shallow cumulus that cover the oceans to the thunderstorms of the Texas Gulf Coast. We weave together evidence no single tool provides: satellite and field observations, theory, simulations from large-eddy to kilometer scale, and machine learning. That combination matters more than ever. As models are increasingly built and tuned with AI, and AI agents run whole analyses on their own, the old question *physics or knob-tuning?* becomes ***physics or shortcut?*** The WEAVE Lab puts AI agents to work across all these tools, and builds the tests that keep them honest.
 
-## Right answers for the right reasons, in the AI-agent era
+**What we work on:** boundary-layer clouds · aerosol–cloud interactions · convective storms in kilometer-scale models · physically trustworthy AI
 
-Climate models have long been tuned to match observations, which raises a hard question: *physics or knob-tuning?* (Our [2025 GRL paper](https://doi.org/10.1029/2025GL118740) asked exactly that about tropical anvil clouds.) Today models are increasingly built and tuned with AI, and AI agents can run whole analyses on their own. The question becomes **physics or shortcut?** An AI that raises a score may have found better physics, or only a shortcut to the score.
-
-Youtong's career has been about combining tools: satellite retrievals, theory, large-eddy simulations, global and storm-resolving models, and machine learning. The lab now puts AI agents to work across all of them, and builds the tests that keep them honest: every AI result is checked against evidence the AI did not make, such as observations, a reference simulation, or a budget that must close.
-
-## Research
-
-- **Coastal storms.** Sea-breeze thunderstorms on the Texas Gulf Coast, and whether air pollution makes Houston's storms stronger. We test the U.S. Department of Energy's kilometer-scale storm-resolving model (E3SM/SCREAM) against observations from the TRACER field campaign.
-- **Shallow clouds and climate.** How low clouds over the oceans and the Arctic form, break up, and respond to warming, sea-ice loss, and aerosols.
-- **Physically trustworthy AI.** Machine learning that says when its predictions can be trusted, such as uncertainty-aware prediction of when storms start; physically interpretable AI; and AI agents that run and check model analyses.
-
-Our work is funded by a [U.S. Department of Energy Early Career Award](https://www.uh.edu/nsm/news-events/stories/2023/1116-early-career-award.php). We collaborate with Lawrence Livermore, Pacific Northwest, and Argonne National Laboratories and with NOAA's Geophysical Fluid Dynamics Laboratory. See the [DOE ARM profile of the PI](https://www.arm.gov/news/features/post/72903).
+Our work is funded by a [U.S. Department of Energy Early Career Award](https://www.uh.edu/nsm/news-events/stories/2023/1116-early-career-award.php), with partners at Lawrence Livermore, Pacific Northwest, and Argonne National Laboratories and NOAA's Geophysical Fluid Dynamics Laboratory.
 
 ## Join us
 

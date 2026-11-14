@@ -2,7 +2,7 @@
 # <b>Y. Zheng</b> bold; † graduate student mentored by Y. Zheng; ‡ postdoc mentored by Y. Zheng. IDs from Portfolio/Publications.md.
 - id: P49
   year: 2026
-  authors: Bhattarai, A.†, and <b>Y. Zheng</b>
+  authors: <u>Bhattarai, A.†</u>, and <b>Y. Zheng</b>
   title: 'Uncertainty-aware machine learning for onset of deep convection: Under what conditions are trigger predictions more reliable?'
   journal: Geophysical Research Letters
   details: 53(15), e2026GL123315
@@ -23,7 +23,7 @@
   doi: 10.1029/2025JD044854
 - id: P46
   year: 2026
-  authors: Zhang, H.†, <b>Y. Zheng</b>, and Z. Li
+  authors: <u>Zhang, H.†</u>, <b>Y. Zheng</b>, and Z. Li
   title: 'Influence of surface aerosol injection on stratocumulus-to-cumulus transition: Cloud-surface coupling and background aerosol concentrations'
   journal: 'Journal of Geophysical Research: Atmospheres'
   details: 131(2), e2025JD044444
@@ -44,21 +44,21 @@
   doi: 10.1029/2025GL118740
 - id: P43
   year: 2025
-  authors: Sarkar, M.‡, R. Vogel, and <b>Y. Zheng</b>
+  authors: <u>Sarkar, M.‡</u>, R. Vogel, and <b>Y. Zheng</b>
   title: Microphysics dominates the sub-cloud rain evaporation in trade cumuli over Barbados
   journal: Geophysical Research Letters
   details: 52(20), e2025GL114885
   doi: 10.1029/2025GL114885
 - id: P42
   year: 2025
-  authors: Oware, R. K. T.†, <b>Y. Zheng</b>, P. Bogenschutz, Y. Zhang, H.-Y. Ma, S. Xie, and C. Tao
+  authors: <u>Oware, R. K. T.†</u>, <b>Y. Zheng</b>, P. Bogenschutz, Y. Zhang, H.-Y. Ma, S. Xie, and C. Tao
   title: 'Evaluating E3SM global storm-resolving model simulations of deep convection: Insights from DP-SCREAM during TRACER'
   journal: 'Journal of Geophysical Research: Atmospheres'
   details: 130(20), e2025JD044113
   doi: 10.1029/2025JD044113
 - id: P41
   year: 2025
-  authors: Zhang, H.†, Y. Zhang, Z. Li, and <b>Y. Zheng</b>
+  authors: <u>Zhang, H.†</u>, Y. Zhang, Z. Li, and <b>Y. Zheng</b>
   title: 'Aerosol influences on cloud water: Insights from ARM EPCAPE observations with explainable machine learning'
   journal: Geophysical Research Letters
   details: 52(15), e2025GL115163
@@ -79,14 +79,14 @@
   doi: 10.5194/acp-24-13633-2024
 - id: P38
   year: 2024
-  authors: Zhang, H.†, <b>Y. Zheng</b>, and Z. Li
+  authors: <u>Zhang, H.†</u>, <b>Y. Zheng</b>, and Z. Li
   title: Improving low-cloud fraction prediction through machine learning
   journal: Geophysical Research Letters
   details: 51(15), e2024GL109735
   doi: 10.1029/2024GL109735
 - id: P37
   year: 2024
-  authors: Zhang, H.†, T. Su, <b>Y. Zheng</b>, and Z. Li
+  authors: <u>Zhang, H.†</u>, T. Su, <b>Y. Zheng</b>, and Z. Li
   title: First assessment of cloud-land coupling in LASSO large-eddy simulations
   journal: Geophysical Research Letters
   details: 51(14), e2024GL109774
@@ -107,7 +107,7 @@
   doi: 10.1029/2023GL108090
 - id: P34
   year: 2024
-  authors: Zhang, H.†, <b>Y. Zheng</b>, and Z. Li
+  authors: <u>Zhang, H.†</u>, <b>Y. Zheng</b>, and Z. Li
   title: Evaluation of stratocumulus evolution under contrasting temperature advections in CESM2 through a Lagrangian framework
   journal: Geophysical Research Letters
   details: 51(4), e2023GL106856
@@ -121,7 +121,7 @@
   doi: 10.1029/2023GL106322
 - id: P32
   year: 2023
-  authors: Zhang, H.†, <b>Y. Zheng</b>, S. S. Lee, and Z. Li
+  authors: <u>Zhang, H.†</u>, <b>Y. Zheng</b>, S. S. Lee, and Z. Li
   title: Surface-atmosphere decoupling prolongs cloud lifetime under warm advection due to reduced entrainment drying
   journal: Geophysical Research Letters
   details: 50(10), e2022GL101663
@@ -177,7 +177,7 @@
   doi: 10.5194/acp-22-1453-2022
 - id: P24
   year: 2021
-  authors: <b>Zheng, Y.</b>, H. Zhang†, D. Rosenfeld, S. S. Lee, T. Su, and Z. Li
+  authors: <b>Zheng, Y.</b>, <u>H. Zhang†</u>, D. Rosenfeld, S. S. Lee, T. Su, and Z. Li
   title: 'Idealized large-eddy simulations of stratocumulus advecting over cold water. Part I: Boundary layer decoupling'
   journal: Journal of the Atmospheric Sciences
   details: 78(12), 4089–4102

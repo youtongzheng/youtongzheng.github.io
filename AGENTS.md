@@ -10,7 +10,7 @@ The site promotes Youtong Zheng and the WEAVE Lab and attracts students, postdoc
 
 The layout, menu, and page structure are settled (as of 2026-11-14): Home, Group, Publications, Teaching & Mentoring, About the PI, News, Live Weather, on the academicpages theme. Future requests are small updates: add or correct information, adjust wording, fix a section. Do not change the theme, the menu structure, or the overall style unless Y. Zheng explicitly asks for a redesign.
 
-The home page leads with the lab's core message: right answers for the right reasons, now "physics or shortcut?" in the AI-agent era.
+The home page opens with one integrated paragraph (core question, clouds and storms studied, tools woven together, "physics or knob-tuning" becoming "physics or shortcut" with AI agents) and a one-line list of topics. Keep it short enough to read at a glance.
 
 ## Where content lives
 
@@ -28,7 +28,7 @@ The home page leads with the lab's core message: right answers for the right rea
 
 ## Rules
 
-- Facts come from `Portfolio/` in Y. Zheng's Obsidian vault; citation format and CV wording follow the latest CV (Applications/University of Michigan CLaSP 2026/CV Youtong Zheng.md): `<b>Y. Zheng</b>`, `†` after a mentored graduate student, `‡` after a mentored postdoc, no corresponding-author marks.
+- Facts come from `Portfolio/` in Y. Zheng's Obsidian vault; citation format and CV wording follow the latest CV (Applications/University of Michigan CLaSP 2026/CV Youtong Zheng.md): `<b>Y. Zheng</b>`; mentored group members underlined with their marker inside, e.g. `<u>Bhattarai, A.†</u>` (graduate student) or `<u>Sarkar, M.‡</u>` (postdoc); no corresponding-author marks. No paper counts or summary sentence on the Publications page.
 - New paper: add it at the top of `_data/publications.yml` (next `P##` ID from `Portfolio/Publications.md`) and remove it from `_data/manuscripts.yml`.
 - Do not use pronouns for people unless they are stated. Write in English.
 - Push to `master` only with Y. Zheng's approval; Pages rebuilds in about a minute. Check the changed page live afterwards.

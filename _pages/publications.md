@@ -11,9 +11,7 @@ author_profile: true
 </style>
 
 {% assign pubs = site.data.publications %}
-{{ pubs.size }} peer-reviewed papers, including *Science*, *PNAS*, *Nature Communications*, and 20 in *Geophysical Research Letters*. Also see [Google Scholar](https://scholar.google.com/citations?user=xTpHltEAAAAJ).
-
-**Bold**: Youtong Zheng · † graduate student mentored by Youtong · ‡ postdoctoral researcher mentored by Youtong
+**Bold**: Youtong Zheng · <u>Underlined</u>: group member († graduate student, ‡ postdoctoral researcher mentored by Youtong)
 
 <h2 id="in-review">Manuscripts in review</h2>
 <ul class="pubs">
