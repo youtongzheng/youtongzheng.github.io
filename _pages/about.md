@@ -24,7 +24,14 @@ Our work is funded by a [U.S. Department of Energy Early Career Award](https://w
 
 ## Join us
 
-We are looking for **self-motivated PhD students and postdocs**. If you are interested, email Youtong at <yzheng18@uh.edu> with your CV and a short note on what you would like to work on.
+We are looking for **self-motivated PhD students and postdocs**. What you get in the WEAVE Lab:
+
+- **Real questions and real tools.** Work with DOE's newest storm-resolving model, field data from Houston, and machine learning, on problems that matter to the Gulf Coast.
+- **National-lab connections.** Our students have spent summers and fellowships at Lawrence Livermore National Laboratory.
+- **AI-ready training.** A weekly AI Agent Day where the group learns to use AI agents in research, and to check what they produce.
+- **Students who win.** Group members have earned a DOE graduate fellowship, AMS presentation awards, and university scholarships.
+
+If you are interested, email Youtong at <yzheng18@uh.edu> with your CV and a short note on what you would like to work on.
 
 ## Recent news
 

@@ -9,6 +9,7 @@ author_profile: true
 .member { text-align:center; font-size:0.85em; line-height:1.35; }
 .member img { width:140px; height:140px; object-fit:cover; border-radius:50%; margin-bottom:0.5em; }
 .member b { display:block; font-size:1.05em; }
+.member .topic { display:block; margin-top:0.4em; font-style:italic; color:#b5172f; }
 </style>
 
 <figure>
@@ -19,14 +20,14 @@ author_profile: true
 ## Current members
 
 <div class="members">
-  <div class="member"><img src="/images/group/yichan-li.jpg" alt="Yichan Li"><b>Dr. Yichan Li</b>Postdoc<br>PhD: University of Arkansas</div>
-  <div class="member"><img src="/images/group/ronin-costello.jpg" alt="Ronin Costello"><b>Ronin S. Costello</b>PhD candidate<br>BSc: Rutgers University</div>
-  <div class="member"><img src="/images/group/malinda-millangoda.jpg" alt="Malinda Millangoda"><b>Malinda Millangoda</b>PhD candidate<br>MSc: Nanjing University of Information Science and Technology, China</div>
-  <div class="member"><img src="/images/group/raymond-oware.jpg" alt="Raymond Oware"><b>Raymond Kwaku Twumasi Oware</b>PhD candidate<br>MSc: African Institute for Mathematical Sciences, Ghana</div>
-  <div class="member"><img src="/images/group/ashish-bhattarai.jpg" alt="Ashish Bhattarai"><b>Ashish Bhattarai</b>PhD candidate<br>MSc: Tribhuvan University, Nepal</div>
-  <div class="member"><img src="/images/group/oussama-romdhani.jpg" alt="Oussama Romdhani"><b>Oussama Romdhani</b>PhD candidate<br>MSc: University of Houston</div>
-  <div class="member"><img src="/images/group/nima-khorshidian.jpg" alt="Nima Khorshidian"><b>Nima Khorshidian</b>PhD candidate (co-supervised with Dr. Yunsoo Choi)<br>MSc: Sharif University of Technology, Iran</div>
-  <div class="member"><img src="/images/group/may-sone.jpg" alt="May Sone"><b>May Sone</b>Undergraduate student</div>
+  <div class="member"><img src="/images/group/yichan-li.jpg" alt="Yichan Li"><b>Dr. Yichan Li</b>Postdoc<br>PhD: University of Arkansas<span class="topic">Flash droughts that turn into extreme rain in Texas</span></div>
+  <div class="member"><img src="/images/group/ronin-costello.jpg" alt="Ronin Costello"><b>Ronin S. Costello</b>PhD candidate<br>BSc: Rutgers University<span class="topic">Arctic clouds and sea-ice loss</span></div>
+  <div class="member"><img src="/images/group/malinda-millangoda.jpg" alt="Malinda Millangoda"><b>Malinda Millangoda</b>PhD candidate<br>MSc: Nanjing University of Information Science and Technology, China<span class="topic">Sea-breeze storms on the Texas Gulf Coast</span></div>
+  <div class="member"><img src="/images/group/raymond-oware.jpg" alt="Raymond Oware"><b>Raymond Kwaku Twumasi Oware</b>PhD candidate<br>MSc: African Institute for Mathematical Sciences, Ghana<span class="topic">Storms and aerosols in DOE's storm-resolving model</span></div>
+  <div class="member"><img src="/images/group/ashish-bhattarai.jpg" alt="Ashish Bhattarai"><b>Ashish Bhattarai</b>PhD candidate<br>MSc: Tribhuvan University, Nepal<span class="topic">Trustworthy machine learning for storm initiation</span></div>
+  <div class="member"><img src="/images/group/oussama-romdhani.jpg" alt="Oussama Romdhani"><b>Oussama Romdhani</b>PhD candidate<br>MSc: University of Houston<span class="topic">Turbulent mixing and storms in km-scale models</span></div>
+  <div class="member"><img src="/images/group/nima-khorshidian.jpg" alt="Nima Khorshidian"><b>Nima Khorshidian</b>PhD candidate (co-supervised with Dr. Yunsoo Choi)<br>MSc: Sharif University of Technology, Iran<span class="topic">Aerosol effects on urban convective clouds</span></div>
+  <div class="member"><img src="/images/group/may-sone.jpg" alt="May Sone"><b>May Sone</b>Undergraduate student<span class="topic">AI agents for weather research</span></div>
 </div>
 
 ## Alumni
