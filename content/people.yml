@@ -1,0 +1,82 @@
+# People page. Photos live in static/images/group/.
+# To add a member: copy a block under "members". To move someone to alumni: delete the block and add a line under "alumni".
+
+pi:
+  name: Youtong Zheng
+  role: Principal Investigator
+  photo: images/avatar.jpg
+  bio: >-
+    Youtong Zheng is an Assistant Professor in the Department of Earth and Atmospheric Sciences at the
+    University of Houston (since 2023). Before that, Youtong was an Associate Research Scholar at Princeton
+    University and NOAA's Geophysical Fluid Dynamics Laboratory (2021–2023), and a postdoc and Assistant
+    Research Scientist at the University of Maryland (2018–2021). Youtong received a Ph.D. from the
+    University of Maryland in 2018, advised by Zhanqing Li and Daniel Rosenfeld, and a B.S. from Nanjing
+    University of Information Science and Technology. Honors include a DOE Early Career Award (2023) and
+    the University of Houston Presidential Circle Award (2025). Youtong is an Associate Editor of the
+    *Journal of Climate*.
+
+members:
+  - name: Dr. Yichan Li
+    role: Postdoc
+    since: 2026
+    photo: images/group/yichan-li.jpg
+    background: PhD, University of Arkansas
+    topic: Flash droughts that turn into extreme rain in Texas, in a storm-resolving model and observations.
+  - name: Ronin S. Costello
+    role: PhD candidate
+    since: 2023
+    photo: images/group/ronin-costello.jpg
+    background: BSc, Rutgers University
+    topic: How Arctic clouds respond to sea-ice loss, and whether climate models get it right.
+    awards: DOE SCGSR Fellow at Lawrence Livermore National Laboratory (2025–2026)
+  - name: Malinda Millangoda
+    role: PhD candidate
+    since: 2023
+    photo: images/group/malinda-millangoda.jpg
+    background: MSc, Nanjing University of Information Science and Technology, China
+    topic: Sea-breeze storms on the Texas Gulf Coast, and how the city and its pollution affect them.
+    awards: Student Poster Award, 27th Robert E. Sheriff Lecture (2025)
+  - name: Raymond Kwaku Twumasi Oware
+    role: PhD candidate
+    since: 2023
+    photo: images/group/raymond-oware.jpg
+    background: MSc, African Institute for Mathematical Sciences, Ghana
+    topic: Deep convection and aerosol effects in DOE's storm-resolving model (SCREAM) during the TRACER campaign.
+    awards: AMS Outstanding Student Presentation Award (2026); LLNL summer internship (2025); department and college scholarships
+  - name: Ashish Bhattarai
+    role: PhD candidate
+    since: 2023
+    photo: images/group/ashish-bhattarai.jpg
+    background: MSc, Tribhuvan University, Nepal
+    topic: Uncertainty-aware and physically interpretable machine learning for storm initiation and cloud patterns.
+    awards: NSM Alumni Association Scholarship (2025); NSM conference travel award (2026)
+  - name: Oussama Romdhani
+    role: PhD candidate
+    since: 2025
+    photo: images/group/oussama-romdhani.jpg
+    background: MSc, University of Houston
+    topic: How turbulent mixing in kilometer-scale models shapes storms over Houston.
+    awards: Outstanding Academic Achievement Scholarship in Atmospheric Science (2025)
+  - name: Nima Khorshidian
+    role: PhD candidate (co-supervised with Dr. Yunsoo Choi)
+    since: 2023
+    photo: images/group/nima-khorshidian.jpg
+    background: MSc, Sharif University of Technology, Iran
+    topic: Aerosol–cloud interactions in urban convective clouds with WRF-Chem.
+  - name: May Sone
+    role: Undergraduate researcher
+    since: 2026
+    photo: images/group/may-sone.jpg
+    background: University of Houston
+    topic: Checking how an AI weather agent reaches its conclusions.
+
+alumni:
+  - "**Dr. Haipeng Zhang**, PhD 2025, University of Maryland (co-advised with Zhanqing Li). Now at the University of Maryland, Baltimore County."
+  - "**Dr. Meng Zhang**, Postdoc, 2025. Now in the energy industry."
+  - "**Dr. Mampi Sarkar**, Postdoc, 2023–2025. Now at Rice University."
+
+how_we_work:
+  - "**Weekly group meeting** on Friday mornings. Slides are shared before the meeting, with variables and methods defined."
+  - "**AI Agent Day** on Friday afternoons: we try AI agents on our own research, present what worked and what did not, and turn repeated analyses into checked, trusted tools."
+  - "**Writing:** everyone reads Joshua Schimel's *Writing Science*, and papers are written as stories with one clear point."
+  - "**Training:** the group supports travel to conferences, hackathons, and summers at national laboratories."

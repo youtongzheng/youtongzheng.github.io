@@ -1,0 +1,37 @@
+# Site-wide information: identity, contact, links, and the home-page text.
+# Inline formatting allowed in text fields: **bold**, *italic*, [link text](url).
+
+name: Youtong Zheng
+name_zh: 郑又通
+title: Assistant Professor
+department: Department of Earth and Atmospheric Sciences
+department_url: https://www.uh.edu/nsm/earth-atmospheric/
+university: University of Houston
+email: yzheng18@uh.edu
+office: Science & Research Building 1, Room 233B, University of Houston, Houston, TX
+photo: images/avatar.jpg
+
+lab_name: WEAVE Lab
+lab_full: Weaving Empirical and Virtual Evidence
+logo: images/weave-logo.jpg
+quote: "With intellectual pleasure, truth becomes clearer and clearer."
+quote_by: Arthur Schopenhauer
+
+links:
+  - {label: Google Scholar, url: "https://scholar.google.com/citations?user=xTpHltEAAAAJ"}
+  - {label: ORCID, url: "https://orcid.org/0000-0002-5961-7617"}
+  - {label: GitHub, url: "https://github.com/youtongzheng"}
+  - {label: UH profile, url: "https://www.uh.edu/nsm/earth-atmospheric/people/faculty/youtong-zheng/"}
+
+# Home page
+intro: >-
+  We study **clouds, convection, and precipitation**, and their roles in weather and climate.
+  The WEAVE Lab combines observations, high-resolution simulations, theory, and machine learning,
+  because the atmosphere is understood best when different kinds of evidence are woven together.
+  Much of our current work is on the thunderstorms of the Texas Gulf Coast and on whether
+  the models we use to predict them get the right answer for the right physical reason.
+
+join_us: >-
+  We are looking for **self-motivated PhD students and postdocs** who enjoy physics, data, and
+  building tools. If you are interested, email Youtong with your CV and a few sentences on
+  what you would like to work on.

@@ -1,19 +1,10 @@
 # youtongzheng.github.io
 
-Website of Youtong Zheng and the WEAVE Lab, Department of Earth and Atmospheric Sciences, University of Houston: https://youtongzheng.github.io
+Website of Youtong Zheng and the WEAVE Lab (Weaving Empirical and Virtual Evidence), Department of Earth and Atmospheric Sciences, University of Houston: https://youtongzheng.github.io
 
-Built with the [academicpages](https://github.com/academicpages/academicpages.github.io) Jekyll template (based on Minimal Mistakes, MIT License; see LICENSE). GitHub Pages builds the site automatically from `master`.
+- `content/` — all text, as YAML (one file per section).
+- `static/` — styles, script, and images.
+- `build.py` — turns `content/` into the HTML pages in `docs/`.
+- `docs/` — the generated site that GitHub Pages serves.
 
-## Where content lives
-
-| Page | File |
-| --- | --- |
-| Home (lab intro, research, recent news) | `_pages/about.md` |
-| Group members | `_pages/group.md`, photos in `images/group/` |
-| Publications | data in `_data/publications.yml`, page `_pages/publications.md` |
-| Teaching | `_pages/teaching.html` |
-| CV (education, positions, awards, service) | `_pages/cv.md` |
-| News | `_pages/news.md` |
-| Live weather (NOAA images) | `_pages/weather.md` |
-| Sidebar profile, site title | `_config.yml` (`author:` block) |
-| Menu | `_data/navigation.yml` |
+To update: edit a file in `content/`, run `python build.py`, then commit and push. `python build.py --serve` previews the site at http://localhost:8000. See `AGENTS.md`.
