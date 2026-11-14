@@ -1,57 +1,122 @@
-# CV page. Source: Portfolio/Profile, Awards, Service, Presentations, Committees.
-# Each section is a list of {when, what}. "what" accepts **bold**, *italic*, [link](url).
+# CV page. Wording and order follow Y. Zheng's CV (Michigan CLaSP 2026 version); facts from Portfolio/.
+# Each section has a title, an id (used in links), and items of {when, what}.
+# "what" accepts **bold**, *italic*, [link](url). Publications, teaching, and mentoring have their own pages.
 
-education:
-  - {when: "2018", what: "**Ph.D., Atmospheric and Oceanic Sciences**, University of Maryland, College Park. Dissertation: *Satellite retrieval of updrafts and cloud condensation nuclei concentrations at cloud bases.* Advisers: Zhanqing Li and Daniel Rosenfeld."}
-  - {when: "2012", what: "**B.S., Atmospheric Science**, Nanjing University of Information Science and Technology, China."}
+interests: >-
+  Kilometer-scale modeling of clouds, convection, precipitation, and extreme weather, combining field and
+  satellite observations, theory, models across scales, and AI into one line of evidence on whether models
+  get extreme weather right for the right physical reasons.
 
-positions:
-  - {when: "2023–", what: "**Assistant Professor**, Department of Earth and Atmospheric Sciences, University of Houston."}
-  - {when: "2023–2024", what: "Visiting Research Collaborator, Program in Atmospheric and Oceanic Sciences, Princeton University."}
-  - {when: "2021–2023", what: "Associate Research Scholar, Program in Atmospheric and Oceanic Sciences, Princeton University, and NOAA Geophysical Fluid Dynamics Laboratory."}
-  - {when: "2020–2021", what: "Assistant Research Scientist, Earth System Science Interdisciplinary Center, University of Maryland."}
-  - {when: "2018–2020", what: "Postdoctoral Associate, Earth System Science Interdisciplinary Center, University of Maryland."}
-  - {when: "2013–2014", what: "Visiting student, Institute of Earth Sciences, Hebrew University of Jerusalem, Israel (host: Daniel Rosenfeld)."}
+sections:
+  - title: Education
+    id: education
+    items:
+      - {when: "2018", what: "**Ph.D., Atmospheric Science**, University of Maryland, College Park. Dissertation: \"Satellite retrieval of updrafts and cloud condensation nuclei concentrations at cloud bases.\" Adviser: Zhanqing Li."}
+      - {when: "2012", what: "**B.S., Atmospheric Science**, Nanjing University of Information Science and Technology, Nanjing, China."}
 
-awards:
-  - {when: "2025", what: "**Presidential Circle Award**, University of Houston."}
-  - {when: "2023", what: "**Early Career Award**, U.S. Department of Energy, Office of Science ($875,000; one of the top two university awardees in Biological and Environmental Research). [News](https://www.uh.edu/nsm/news-events/stories/2023/1116-early-career-award.php)"}
-  - {when: "2022", what: "Presidential Frontier Faculty Professorship, University of Houston."}
-  - {when: "2021", what: "Finalist, Lawrence Fellowship, Lawrence Livermore National Laboratory."}
-  - {when: "2019", what: "**Yuxiang Young Scholar Award**, Chinese-American Oceanic and Atmospheric Association (top 5 Chinese earth scientists within five years of the Ph.D.)."}
-  - {when: "2017", what: "Ann G. Wylie Dissertation Fellowship, University of Maryland."}
-  - {when: "2017", what: "Chinese Government Award for Outstanding Students Abroad, China Scholarship Council (top ~500 worldwide from more than 500,000)."}
-  - {when: "2016", what: "Outstanding Graduate Assistant Award (top 2%), University of Maryland."}
-  - {when: "2016", what: "Ann Wylie Green Fund Scholarship Award, ESSIC, University of Maryland."}
-  - {when: "2015–2017", what: "Travel awards: AGU Fall Meeting (2015), Jacob Goldhaber Travel Award (2016), NASA Langley for ACAM (2017), ESSIC for the NOAA satellite conference (2017), Nanjing University Young Scientist Forum (2017)."}
+  - title: Professional appointments
+    id: appointments
+    items:
+      - {when: "2023–present", what: "**Assistant Professor**, Department of Earth and Atmospheric Sciences, University of Houston"}
+      - {when: "2023–2024", what: "Visiting Research Collaborator, Program in Atmospheric and Oceanic Sciences, Princeton University"}
+      - {when: "2021–2023", what: "Associate Research Scholar, Program in Atmospheric and Oceanic Sciences, Princeton University / NOAA Geophysical Fluid Dynamics Laboratory"}
+      - {when: "2018–2021", what: "Postdoctoral Associate / Assistant Research Scientist, Earth System Science Interdisciplinary Center, University of Maryland, College Park"}
+      - {when: "2013–2014", what: "Visiting Student, Institute of Earth Sciences, Hebrew University of Jerusalem, Israel"}
+      - {when: "2012–2018", what: "Graduate Research Assistant, Department of Atmospheric and Oceanic Science, University of Maryland, College Park"}
 
-service:
-  - {when: "2023–", what: "**Associate Editor**, *Journal of Climate*."}
-  - {when: "2021–2027", what: "Session chair and co-organizer, \"Aerosol–cloud interactions in warm clouds,\" AMS Symposium on Aerosol–Cloud–Climate Interactions."}
-  - {when: "2021–2025", what: "Member, ARM User Executive Committee (cloud measurements and cloud modeling), U.S. Department of Energy."}
-  - {when: "2021–2023", what: "Board Member, Chinese-American Oceanic and Atmospheric Association."}
-  - {when: "2014–2017", what: "Student representative, Atmospheric Sciences Committee, American Geophysical Union."}
-  - {when: "2018–2026", what: "Judge, Outstanding Student Paper Awards, AMS Annual Meeting (2018, 2021, 2026)."}
-  - {when: "Panels", what: "Proposal reviewer for NSF, DOE (Early Career Research Program, FAIR), NASA ROSES, and the Austrian Science Fund."}
-  - {when: "Journals", what: "Reviewer for *Nature Geoscience*, *Nature Communications*, *Journal of Climate*, *Geophysical Research Letters*, *JAMES*, *Journal of the Atmospheric Sciences*, *Atmospheric Chemistry and Physics*, *JGR: Atmospheres*, *JGR: Machine Learning and Computation*, *Remote Sensing of Environment*, *Scientific Reports*, and others."}
-  - {when: "UH", what: "Academic Dishonesty Committee (2026–); EAS seminar host; faculty judge for Dobrin Day (2024), Student Research Day (2025), and the Three-Minute Thesis competition (2025); member of doctoral committees at UH and the University of Maryland."}
-  - {when: "Outreach", what: "UH STEM Zone Saturday speaker (2023); host of an NSF ALL RISE Research Experience for Teachers project (2026)."}
+  - title: Honors and awards
+    id: awards
+    items:
+      - {when: "2025", what: "**Presidential Circle Award**, University of Houston (for national recognition, 2023–2024)"}
+      - {when: "2023", what: "**U.S. Department of Energy Office of Science Early Career Award** (one of **two** university-based awardees in Biological and Environmental Research) ([UH news](https://www.uh.edu/nsm/news-events/stories/2023/1116-early-career-award.php))"}
+      - {when: "2022", what: "Presidential Frontier Faculty Professorship, University of Houston ([NSM faculty newsletter](https://facnewsletter.nsm.uh.edu/issues/august-2022/articles/new-faculty))"}
+      - {when: "2021", what: "Finalist, Lawrence Fellowship, Lawrence Livermore National Laboratory"}
+      - {when: "2019", what: "**Yuxiang Young Scholar Award**, Chinese-American Oceanic and Atmospheric Association (top **5** Chinese earth scientists within five years of the Ph.D.) ([ESSIC news](https://essic.umd.edu/?p=204))"}
+      - {when: "2017", what: "Ann G. Wylie Dissertation Fellowship, University of Maryland"}
+      - {when: "2017", what: "Chinese Government Award for Outstanding Students Abroad, China Scholarship Council (~**500** awardees selected from more than **500,000** candidates worldwide, across all disciplines)"}
+      - {when: "2016", what: "Outstanding Graduate Assistant Award, University of Maryland (top **2%** of graduate assistants)"}
+      - {when: "2016", what: "Ann Wylie Green Fund Scholarship Award, University of Maryland"}
+      - {when: "2015–2017", what: "Travel awards: AGU Fall Meeting Travel Grant (2015); Jacob Goldhaber Travel Award, University of Maryland (2016); NASA Langley travel support, ACAM conference (2017); ESSIC travel grant, NOAA satellite conference (2017)"}
 
-talks:
-  - {when: "2027", what: "AMS 107th Annual Meeting, 19th Symposium on Aerosol–Cloud–Climate Interactions (invited): *Aerosol impacts on convective storms in the Texas Gulf Coast: Insights from the regionally refined SCREAM.*"}
-  - {when: "2026", what: "Workshop on High and Ultra-high Resolution Modeling of the Earth System, Texas A&M University: *Simulating Texas Gulf Coast storms with DOE's global storm-resolving model.*"}
-  - {when: "2025", what: "Rice University, Department of Earth, Environmental and Planetary Sciences (seminar)."}
-  - {when: "2025", what: "University of Houston, Department of Earth and Atmospheric Sciences (seminar)."}
-  - {when: "2024", what: "DOE Earth and Environmental Systems Modeling PI Meeting (invited Early Career plenary): *Exploring aerosol impacts on coastal storms: What new opportunities does SCREAM offer?*"}
-  - {when: "2024", what: "George Mason University, Satellite and Earth Systems Studies program (virtual seminar)."}
-  - {when: "2022", what: "Purdue University; University of Houston; Nanjing University of Information Science and Technology (virtual)."}
-  - {when: "2021", what: "Princeton University and GFDL; Lawrence Livermore National Laboratory; NASA Goddard Cloud Precipitation Center; Brookhaven National Laboratory; Rutgers University; University of Maryland (all virtual)."}
-  - {when: "2020", what: "AMS 100th Annual Meeting, 12th Symposium on Aerosol–Cloud–Climate Interactions (invited): *Two missing key ingredients in unlocking the aerosol and warm cloud interactions*; McGill University (virtual seminar)."}
-  - {when: "2014–2017", what: "Hebrew University of Jerusalem (2014); Chinese Academy of Meteorological Sciences (2016); Max Planck Institute for Meteorology, Hamburg (2017); Max Planck Institute for Chemistry, Mainz (2017); NASA Goddard AeroCenter (2017); Nanjing University (2017)."}
+  - title: Research funding
+    id: funding
+    items:
+      - {when: "2023–2028", what: "**U.S. DOE Office of Science Early Career Research Program** (DE-SC0024185). \"[Using Kilometer-Scale E3SM to Investigate Air Pollution Impacts on Coastal Storms](https://eesm.science.energy.gov/projects/using-kilometer-scale-e3sm-investigate-air-pollution-impacts-coastal-storms).\" Role: sole PI. Amount: $875,000."}
+      - {when: "2025–2026", what: "**U.S. DOE Office of Science Graduate Student Research (SCGSR) Program**, award to Ph.D. student Ronin Costello at Lawrence Livermore National Laboratory. \"Process-Level Assessment of Marine Cold Air Outbreak Clouds and Sea Ice–Cloud Coupling in SCREAMv1.\" Role: Ph.D. advisor. Amount: $45,200. ([UH news](https://www.uh.edu/nsm/news-events/stories/2026/0202-doe-award.php))"}
 
+  - title: Invited talks and seminars
+    id: talks
+    items:
+      - {when: "2027", what: "Invited talk, 19th Symposium on Aerosol–Cloud–Climate Interactions, AMS 107th Annual Meeting"}
+      - {when: "2025", what: "Department of Earth, Environmental and Planetary Sciences, Rice University"}
+      - {when: "2025", what: "Department of Earth and Atmospheric Sciences, University of Houston"}
+      - {when: "2024", what: "Invited Early Career plenary, DOE Earth and Environmental Systems Modeling PI Meeting, Rockville, MD"}
+      - {when: "2024", what: "Satellite and Earth Systems Studies Program, George Mason University"}
+      - {when: "2022", what: "Department of Atmospheric Physics, Nanjing University of Information Science and Technology"}
+      - {when: "2022", what: "Department of Earth, Atmospheric, and Planetary Sciences, Purdue University"}
+      - {when: "2022", what: "Department of Earth and Atmospheric Sciences, University of Houston"}
+      - {when: "2021", what: "Department of Atmospheric and Oceanic Science, University of Maryland"}
+      - {when: "2021", what: "Institute of Earth, Ocean, and Atmospheric Sciences, Rutgers University"}
+      - {when: "2021", what: "Environmental and Climate Sciences Department, Brookhaven National Laboratory"}
+      - {when: "2021", what: "Cloud Precipitation Center, NASA Goddard Space Flight Center"}
+      - {when: "2021", what: "Lawrence Livermore National Laboratory"}
+      - {when: "2021", what: "GFDL and Program in Atmospheric and Oceanic Sciences, Princeton University"}
+      - {when: "2020", what: "Department of Atmospheric and Oceanic Sciences, McGill University"}
+      - {when: "2020", what: "Invited talk, 12th Symposium on Aerosol–Cloud–Climate Interactions, AMS 100th Annual Meeting, Boston, MA"}
+      - {when: "2017", what: "Department of Atmospheric Sciences, Nanjing University, China"}
+      - {when: "2017", what: "AeroCenter, NASA Goddard Space Flight Center"}
+      - {when: "2017", what: "Max Planck Institute for Chemistry, Mainz, Germany"}
+      - {when: "2017", what: "Max Planck Institute for Meteorology, Hamburg, Germany"}
+      - {when: "2016", what: "Chinese Academy of Meteorological Sciences, Beijing, China"}
+      - {when: "2014", what: "Institute of Earth Sciences, Hebrew University of Jerusalem, Israel"}
+
+  - title: Professional service
+    id: service
+    items:
+      - {when: "2023–present", what: "Associate Editor, *Journal of Climate*"}
+      - {when: "2021–2025", what: "Member, ARM User Executive Committee (cloud measurements and cloud modeling), U.S. DOE ([ARM profile](https://arm.gov/news/features/post/72903))"}
+      - {when: "2021–2027", what: "Session Chair and Organizer, \"Aerosol–Cloud Interactions in Warm Clouds,\" Symposium on Aerosol–Cloud–Climate Interactions, AMS Annual Meeting"}
+      - {when: "2018–2026", what: "Judge, Outstanding Student Paper Awards, AMS Annual Meeting (2018, 2021, and 2026)"}
+      - {when: "2014–2017", what: "Student Representative, Atmospheric Science Committee, American Geophysical Union"}
+      - {when: "Panels", what: "U.S. DOE Office of Science Early Career Research Program review panel (BER), 2026; NASA ROSES review panel, 2021"}
+      - {when: "Proposals", what: "Ad hoc reviewer: U.S. National Science Foundation (2021–present); DOE Funding for Accelerated, Inclusive Research (FAIR); Austrian Science Fund"}
+      - {when: "Journals", what: "*Nature Geoscience*; *Nature Communications*; *Journal of Climate*; *Geophysical Research Letters*; *Journal of Advances in Modeling Earth Systems*; *Journal of the Atmospheric Sciences*; *Atmospheric Chemistry and Physics*; *Remote Sensing of Environment*; *Journal of Geophysical Research: Atmospheres*; *Scientific Reports*; *Solar Energy*; *City and Environment Interactions*; *Remote Sensing*; *Advances in Atmospheric Sciences*; *Atmosphere*; *Symmetry*; *Atmospheric and Oceanic Science Letters*"}
+      - {when: "UH", what: "Member, Institute for Climate and Atmospheric Science (ICAS); Member, Academic Dishonesty Committee, Department of Earth and Atmospheric Sciences (2026–present); academic program assessment for the B.S. in Atmospheric Science (2025–2026); faculty judge for Dobrin Day (2024), Student Research Day (2025), and the Three-Minute Thesis Competition (2025); department seminar host: Dr. Meng Zhang (Spring 2025), Dr. Die Wang (Fall 2025), Dr. Zong-Liang Yang (Spring 2026), Dr. Dev Niyogi (Fall 2026), Dr. Kelly Huang and Dr. Zhi Li (Spring 2027)"}
+      - {when: "Outreach", what: "Host, NSF ALL RISE Research Experience for Teachers: one-week research project for two middle-school teachers, June 2026; invited speaker, UH STEM Zone Saturday (grades 3–12), November 2023"}
+
+  - title: Technical skills
+    id: skills
+    items:
+      - {when: "Models", what: "E3SM/SCREAM (regionally refined and doubly periodic), WRF, CESM, GFDL AM4/CM4, System for Atmospheric Modeling (SAM) large-eddy simulation"}
+      - {when: "Programming", what: "Python, Fortran, IDL"}
+      - {when: "Methods", what: "Machine learning and explainable AI, satellite retrievals, ground-based remote sensing"}
+
+# Media page section (shown on the News page and linked from the CV).
 media:
-  - {when: "2026", what: "[UH NSM News: Ronin Costello earns DOE SCGSR award](https://www.uh.edu/nsm/news-events/stories/2026/0202-doe-award.php)"}
-  - {when: "2023", what: "[UH NSM News: Youtong Zheng earns DOE Early Career Award to study correlation between air pollution and storm strength](https://www.uh.edu/nsm/news-events/stories/2023/1116-early-career-award.php)"}
-  - {when: "2021", what: "[DOE ARM: UEC Profile, Youtong Zheng models complex marine clouds](https://www.arm.gov/news/features/post/72903)"}
-  - {when: "2021", what: "[DOE ASR: Youtong Zheng, modeling complex marine clouds](https://asr.science.energy.gov/news/program-news/post/14594)"}
-  - {when: "2019", what: "Science paper on aerosol-driven ocean clouds covered by ScienceDaily and EurekAlert! ([ScienceDaily](https://www.sciencedaily.com/releases/2019/01/190122104611.htm))"}
+  - title: Features and news about the group's work
+    items:
+      - {when: "2026", what: "University of Houston, College of NSM: \"[Ronin Costello earns DOE Office of Science Graduate Student Research award](https://www.uh.edu/nsm/news-events/stories/2026/0202-doe-award.php)\""}
+      - {when: "2026", what: "UH EAS Newsletter: \"[Poster competition](https://newsletter.eas.uh.edu/issues/fall-2025-spring-2026/spotlight/poster-competition)\" (Raymond Oware's AMS award)"}
+      - {when: "2023", what: "University of Houston, College of NSM: \"[Youtong Zheng earns Department of Energy Early Career Award to study correlation between air pollution and storm strength](https://www.uh.edu/nsm/news-events/stories/2023/1116-early-career-award.php)\""}
+      - {when: "2023", what: "DOE Earth and Environmental Systems Modeling project page: \"[Using kilometer-scale E3SM to investigate air pollution impacts on coastal storms](https://eesm.science.energy.gov/projects/using-kilometer-scale-e3sm-investigate-air-pollution-impacts-coastal-storms)\""}
+      - {when: "2022", what: "UH NSM Faculty Newsletter: \"[New faculty](https://facnewsletter.nsm.uh.edu/issues/august-2022/articles/new-faculty)\" (Presidential Frontier Faculty hire)"}
+      - {when: "2021", what: "DOE Atmospheric System Research: \"[Youtong Zheng: Modeling complex marine clouds](https://asr.science.energy.gov/news/program-news/post/14594)\""}
+      - {when: "2021", what: "DOE Atmospheric Radiation Measurement (ARM): \"[UEC profile: Youtong Zheng models complex marine clouds](https://arm.gov/news/features/post/72903)\""}
+      - {when: "2021", what: "University of Maryland ESSIC: \"[Zheng and Li clarify advection in the marine boundary layer](https://essic.umd.edu/zheng-and-li-clarify-advection-in-the-marine-boundary-layer/)\""}
+      - {when: "2021", what: "University of Maryland ESSIC: \"Congratulations to Youtong Zheng, newly elected ARM User Executive Committee member\""}
+      - {when: "2020", what: "University of Maryland ESSIC: \"[Zheng earns 2019 Yuxiang Early Career Award](https://essic.umd.edu/?p=204)\""}
+      - {when: "2019", what: "University of Maryland ESSIC: \"[Zheng co-authors article in Science on aerosol cooling effect on marine clouds](https://essic.umd.edu/zheng-co-authors-article-in-science-on-aerosol-cooling-effect-on-marine-clouds/)\""}
+      - {when: "2018", what: "University of Maryland ESSIC: \"[Zheng published in Geophysical Research Letters on subtropical cloud decoupling](https://essic.umd.edu/zheng-published-in-geophysical-research-letters-on-subtropical-cloud-decoupling/)\""}
+  - title: Press coverage of co-authored papers
+    items:
+      - {when: "2022", what: "Phys.org: \"[Do forests lead to more or fewer clouds? It depends](https://phys.org/news/2022-02-forests-clouds.html)\" (on Xu et al., 2022, *Nature Communications*)"}
+      - {when: "2019", what: "ScienceDaily: \"[We need to rethink everything we know about global warming](https://www.sciencedaily.com/releases/2019/01/190122104611.htm)\" (on Rosenfeld et al., 2019, *Science*); same story on [EurekAlert!](https://www.eurekalert.org/news-releases/480663)"}
+      - {when: "2019", what: "Phys.org: \"[Researchers find cooling effect of aerosols in cumulus and MSC clouds twice as high as thought](https://phys.org/news/2019-01-cooling-effect-aerosols-cumulus-msc.html)\" (on Rosenfeld et al., 2019, *Science*)"}
+      - {when: "2016", what: "ScienceDaily: \"[Eyeing climate change, satellites provide missing information](https://www.sciencedaily.com/releases/2016/03/160309083425.htm)\" (on Rosenfeld et al., 2016, *PNAS*)"}
+  - title: DOE research highlights
+    items:
+      - {when: "2024", what: "ARM: \"[Improving low-cloud fraction prediction through machine learning](https://arm.gov/research/highlights/1353)\" (Zhang et al., 2024)"}
+      - {when: "2021", what: "ASR: \"[Sub-cloud turbulence explains cloud-base updrafts](https://asr.science.energy.gov/science/highlights/1022)\" (Zheng et al., 2021)"}
+      - {when: "2021", what: "ARM: \"[Revisiting the deepening-warming decoupling theory](https://arm.gov/research/highlights/1057)\" (Zheng et al., 2021)"}
+      - {when: "2020", what: "ARM: \"[A more general paradigm for understanding marine boundary-layer decoupling](https://arm.gov/research/highlights/974)\" (Zheng et al., 2020)"}
+      - {when: "2018", what: "ASR: \"[New satellite method to estimate the decoupling degree of marine low clouds](https://asr.science.energy.gov/science/highlights/839)\" (Zheng et al., 2018)"}

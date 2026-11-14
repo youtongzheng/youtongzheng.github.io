@@ -58,8 +58,8 @@ NAV = [
     ("research.html", "Research"),
     ("people.html", "People"),
     ("publications.html", "Publications"),
-    ("teaching.html", "Teaching"),
-    ("news.html", "News"),
+    ("teaching.html", "Teaching & Mentoring"),
+    ("news.html", "News & Media"),
     ("cv.html", "CV"),
     ("weather.html", "Weather"),
 ]
@@ -134,8 +134,7 @@ HIGH_PROFILE = {"Science": "Science", "Proceedings of the National Academy of Sc
 
 
 def cite(p, number=None):
-    authors = p["authors"]
-    authors = authors.replace("Zheng, Y.", "<b>Zheng, Y.</b>").replace("Y. Zheng", "<b>Y. Zheng</b>")
+    authors = md(p["authors"])
     title = esc(p["title"])
     if not title.endswith("?"):
         title += "."
@@ -152,10 +151,14 @@ def cite(p, number=None):
 
 
 def pub_flags(p):
+    """(first-authored by Y. Zheng, includes a mentored student † or postdoc ‡)."""
     a = p["authors"]
-    led = "Y. Zheng*" in a or "Zheng, Y.*" in a
-    trainee = "<u>" in a
-    return led, trainee
+    first = a.startswith("**Zheng, Y.**")
+    trainee = "†" in a or "‡" in a
+    return first, trainee
+
+
+LEGEND = "<b>Bold</b>: Youtong Zheng · † graduate student mentored by Youtong · ‡ postdoctoral researcher mentored by Youtong"
 
 
 # --------------------------------------------------------------------------
@@ -170,7 +173,7 @@ def build_home(site, research, news, pubs, people):
     news_items = "".join(
         f'<li><time>{fmt_month(n["date"])}</time><span>{md(n["text"])}</span></li>' for n in news[:6]
     )
-    recent = [p for p in pubs if pub_flags(p)[0]][:3]
+    recent = [p for p in pubs if any(pub_flags(p))][:3]
     recent_html = "".join(f"<li>{cite(p)}</li>" for p in recent)
     links = "".join(f'<a class="btn ghost" href="{esc(l["url"])}" target="_blank" rel="noopener">{esc(l["label"])}</a>' for l in site["links"][:2])
     body = f"""
@@ -277,7 +280,7 @@ def build_people(site, people):
     return body
 
 
-def build_publications(site, pubs):
+def build_publications(site, pubs, manuscripts, conferences):
     total = len(pubs)
     years = []
     for p in pubs:
@@ -291,57 +294,97 @@ def build_publications(site, pubs):
             led, trainee = pub_flags(p)
             text = re.sub("<[^>]+>", "", f'{p["authors"]} {p["title"]} {p["journal"]} {p["year"]}').lower()
             items.append(
-                f'<li class="pub" data-led="{int(led)}" data-trainee="{int(trainee)}" data-text="{esc(text)}">{cite(p, n)}</li>'
+                f'<li class="pub" data-first="{int(led)}" data-trainee="{int(trainee)}" data-text="{esc(text)}">{cite(p, n)}</li>'
             )
             n -= 1
         blocks.append(f'<section class="pub-year" data-year="{y}"><h2>{y}</h2><ol class="pubs">{"".join(items)}</ol></section>')
     led_n = sum(pub_flags(p)[0] for p in pubs)
     tr_n = sum(pub_flags(p)[1] for p in pubs)
+    mans = "".join(
+        f'<li><span class="pub-body">{md(m["authors"])}. <span class="pub-title">{esc(m["title"])}.</span> '
+        f'<i>{esc(m["journal"])}</i>, <span class="status">{esc(m["status"])}</span>.</span></li>'
+        for m in manuscripts
+    )
+    confs = "".join(f"<li>{md(c)}</li>" for c in conferences)
     body = page_head(
         "Publications",
-        f"{total} peer-reviewed papers. Also on [Google Scholar](https://scholar.google.com/citations?user=xTpHltEAAAAJ).",
+        f"{total} peer-reviewed papers, including *Science*, *PNAS*, *Nature Communications*, and 20 in "
+        f"*Geophysical Research Letters*. Also on [Google Scholar](https://scholar.google.com/citations?user=xTpHltEAAAAJ).",
     )
     body += f"""<section class="section"><div class="wrap narrow">
+<p class="legend top">{LEGEND}</p>
+<p class="toc"><a href="#manuscripts">Manuscripts in review</a> · <a href="#papers">Peer-reviewed papers</a> · <a href="#conferences">Conference presentations</a></p>
+<h2 id="manuscripts">Manuscripts in review</h2>
+<ul class="pubs">{mans}</ul>
+<h2 id="papers">Peer-reviewed papers</h2>
 <div class="pub-tools">
   <input id="pub-search" type="search" placeholder="Search title, author, journal…" aria-label="Search publications">
   <div class="chips" role="group" aria-label="Filter">
     <button class="chip active" data-filter="all">All ({total})</button>
-    <button class="chip" data-filter="led">Led by Youtong ({led_n})</button>
-    <button class="chip" data-filter="trainee">With group students and postdocs ({tr_n})</button>
+    <button class="chip" data-filter="first">First author: Youtong ({led_n})</button>
+    <button class="chip" data-filter="trainee">With mentored students and postdocs ({tr_n})</button>
   </div>
-  <p class="legend"><b>Bold</b>: Youtong Zheng · * corresponding author · <u>underlined</u>: student or postdoc in the group</p>
 </div>
 {''.join(blocks)}
 <p id="pub-empty" class="muted" hidden>No papers match.</p>
+<h2 id="conferences">Conference presentations (since 2023)</h2>
+<ul class="pubs compact">{confs}</ul>
 </div></section>"""
     return body
 
 
 def build_teaching(teaching):
-    courses = "".join(
-        f"""<article class="card course">
-  <p class="course-code">{esc(c['code'])}{' <span class="badge">New course</span>' if c.get('new') else ''}</p>
-  <h3>{esc(c['title'])}</h3>
-  <p class="muted">{esc(c['level'])}</p>
-  <p>{md(c['description'])}</p>
-  <p class="terms">{''.join(f'<span class="chip static">{esc(t)}</span>' for t in c['terms'])}</p>
-</article>"""
-        for c in teaching["courses"]
+    approach = "".join(f'<div class="card"><h3>{esc(a["title"])}</h3><p>{md(a["text"])}</p></div>' for a in teaching["approach"])
+    courses = []
+    for c in teaching["courses"]:
+        img = f'<img class="course-img" src="{c["image"]}" alt="{esc(c.get("image_alt", ""))}" loading="lazy">' if c.get("image") else ""
+        quote = (f'<blockquote class="course-quote">“{esc(c["quote"])}”<cite>— {esc(c["quote_by"])}</cite></blockquote>'
+                 if c.get("quote") else "")
+        terms = "".join(f'<span class="chip static">{esc(t)}</span>' for t in c["terms"])
+        new = ' <span class="badge">New course developed</span>' if c.get("new") else ""
+        courses.append(f"""<article class="course-row{' has-img' if img else ''}">
+  {img}
+  <div>
+    <p class="course-code">{esc(c['code'])}{new}</p>
+    <h3>{esc(c['title'])}</h3>
+    <p class="muted small">{esc(c['level'])}</p>
+    <p>{md(c['description'])}</p>
+    {quote}
+    <p class="terms"><span class="muted small">Taught (enrollment):</span> {terms}</p>
+  </div>
+</article>""")
+    quotes = "".join(f'<blockquote>“{esc(q["text"])}”<cite>— {esc(q["course"])} student</cite></blockquote>' for q in teaching["student_quotes"])
+    m = teaching["mentoring"]
+    groups = "".join(
+        f'<div class="mentor-group"><h3>{esc(g["title"])}</h3><ul class="plain">' + "".join(f"<li>{md(i)}</li>" for i in g["items"]) + "</ul></div>"
+        for g in m["groups"]
     )
-    quotes = "".join(f"<blockquote>“{esc(q)}”</blockquote>" for q in teaching["student_quotes"])
-    body = page_head("Teaching", teaching["approach"])
+    body = page_head("Teaching & Mentoring", teaching["intro"])
     body += f"""<section class="section"><div class="wrap">
-<p class="narrow-text">{md(teaching['new_courses'])}</p>
-<div class="grid cards2">{courses}</div>
-<div class="two-col top-gap">
-  <div><h2>From students</h2><div class="quotes">{quotes}</div><p class="muted small">From anonymous UH course evaluations.</p></div>
-  <div><h2>Earlier teaching</h2><p>{md(teaching['earlier'])}</p></div>
-</div>
+<p class="toc"><a href="#approach">Approach</a> · <a href="#courses">Courses</a> · <a href="#students-say">What students say</a> · <a href="#mentoring">Mentoring</a></p>
+<h2 id="approach">Approach</h2>
+<div class="grid cards3">{approach}</div>
+<h2 id="courses">Courses at the University of Houston</h2>
+<div class="courses">{''.join(courses)}</div>
+<p class="muted small">Earlier: {md(teaching['earlier'])}</p>
+<h2 id="students-say">What students say</h2>
+<div class="quotes grid cards2">{quotes}</div>
+<p class="muted small">From anonymous UH course evaluations.</p>
+</div></section>
+<section class="section alt" id="mentoring"><div class="wrap">
+<h2>Mentoring</h2>
+<p class="narrow-text">{md(m['intro'])}</p>
+<div class="mentor-grid">{groups}</div>
+<p><a href="people.html">Meet the current group →</a></p>
 </div></section>"""
     return body
 
 
-def build_news(news):
+def timeline(rows):
+    return '<dl class="timeline">' + "".join(f"<dt>{esc(r['when'])}</dt><dd>{md(r['what'])}</dd>" for r in rows) + "</dl>"
+
+
+def build_news(news, cv):
     by_year = {}
     for n in news:
         by_year.setdefault(str(n["date"])[:4], []).append(n)
@@ -349,42 +392,42 @@ def build_news(news):
         f'<h2>{y}</h2><ul class="news">' + "".join(f'<li><time>{fmt_month(n["date"])}</time><span>{md(n["text"])}</span></li>' for n in items) + "</ul>"
         for y, items in by_year.items()
     )
-    return page_head("News") + f'<section class="section"><div class="wrap narrow">{blocks}</div></section>'
+    media = "".join(f'<h3 class="media-h">{esc(s["title"])}</h3>{timeline(s["items"])}' for s in cv["media"])
+    return (page_head("News & Media")
+            + '<section class="section"><div class="wrap narrow"><p class="toc"><a href="#news">News</a> · <a href="#media">Media coverage and research highlights</a></p>'
+            + f'<div id="news">{blocks}</div>'
+            + f'<h2 id="media">Media coverage and research highlights</h2>{media}</div></section>')
 
 
 def build_cv(site, cv):
-    def table(rows):
-        return '<dl class="timeline">' + "".join(f"<dt>{esc(r['when'])}</dt><dd>{md(r['what'])}</dd>" for r in rows) + "</dl>"
-
-    sections = [
-        ("Education", "education"),
-        ("Positions", "positions"),
-        ("Awards and honors", "awards"),
-        ("Invited talks and seminars", "talks"),
-        ("Service", "service"),
-        ("Media", "media"),
-    ]
-    toc = " · ".join(f'<a href="#{k}">{t}</a>' for t, k in sections)
-    body = page_head("Curriculum Vitae", f"{site['name']}, {site['title']}, {site['department']}, {site['university']}.")
-    body += f'<section class="section"><div class="wrap narrow"><p class="toc">{toc} · <a href="publications.html">Publications</a> · <a href="teaching.html">Teaching</a> · <a href="people.html">Mentoring</a></p>'
-    body += "".join(f'<h2 id="{k}">{t}</h2>{table(cv[k])}' for t, k in sections)
+    secs = cv["sections"]
+    toc = " · ".join(f'<a href="#{s["id"]}">{esc(s["title"])}</a>' for s in secs)
+    extra = ' · <a href="publications.html">Publications</a> · <a href="teaching.html">Teaching &amp; mentoring</a> · <a href="news.html#media">Media</a>'
+    body = page_head("Curriculum Vitae", f"{site['name']}, Ph.D. · {site['title']}, {site['department']}, {site['university']}.")
+    body += f'<section class="section"><div class="wrap narrow"><p class="toc">{toc}{extra}</p>'
+    body += f'<h2 id="interests">Research interests</h2><p>{md(cv["interests"])}</p>'
+    body += "".join(f'<h2 id="{s["id"]}">{esc(s["title"])}</h2>{timeline(s["items"])}' for s in secs)
     body += "</div></section>"
     return body
 
 
 def build_weather():
+    # Every image points at a "latest" product URL. site.js reloads each one every few minutes
+    # (with a cache-busting query), so an open page keeps showing the newest image.
     panels = [
-        ("GOES-19 GeoColor, continental U.S.", "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg", "https://www.star.nesdis.noaa.gov/GOES/conus.php?sat=G19"),
-        ("GOES-19 water vapor (band 9)", "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/09/1250x750.jpg", "https://www.star.nesdis.noaa.gov/GOES/conus.php?sat=G19"),
-        ("Houston radar (KHGX) loop", "https://radar.weather.gov/ridge/standard/KHGX_loop.gif", "https://radar.weather.gov/station/khgx/standard"),
-        ("NWS surface analysis", "https://www.wpc.ncep.noaa.gov/sfc/namussfcwbg.gif", "https://www.wpc.ncep.noaa.gov/html/sfc-zoom.php"),
-        ("WPC day-1 forecast", "https://www.wpc.ncep.noaa.gov/basicwx/92fndfd.gif", "https://www.wpc.ncep.noaa.gov/basicwx/basicwx_ndfd.php"),
+        ("Houston radar (KHGX), loop", "https://radar.weather.gov/ridge/standard/KHGX_loop.gif", "https://radar.weather.gov/station/khgx/standard", 2),
+        ("GOES-19 GeoColor, continental U.S.", "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/1250x750.jpg", "https://www.star.nesdis.noaa.gov/GOES/conus.php?sat=G19", 5),
+        ("GOES-19 water vapor (band 9)", "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/09/1250x750.jpg", "https://www.star.nesdis.noaa.gov/GOES/conus.php?sat=G19", 5),
+        ("U.S. radar mosaic, loop", "https://radar.weather.gov/ridge/standard/CONUS_loop.gif", "https://radar.weather.gov/", 2),
+        ("NWS surface analysis", "https://www.wpc.ncep.noaa.gov/sfc/namussfcwbg.gif", "https://www.wpc.ncep.noaa.gov/html/sfc-zoom.php", 30),
+        ("WPC short-range forecast, day 1", "https://www.wpc.ncep.noaa.gov/basicwx/92fndfd.gif", "https://www.wpc.ncep.noaa.gov/basicwx/basicwx_ndfd.php", 30),
     ]
     figs = "".join(
-        f'<figure class="card wx"><a href="{src_page}" target="_blank" rel="noopener"><img src="{img}" alt="{esc(t)}" loading="lazy"></a><figcaption>{esc(t)}</figcaption></figure>'
-        for t, img, src_page in panels
+        f'<figure class="card wx"><a href="{page_url}" target="_blank" rel="noopener"><img class="live" data-src="{img}" data-refresh="{mins}" src="{img}" alt="{esc(t)}"></a>'
+        f'<figcaption>{esc(t)} <span class="muted small">· refreshes every {mins} min · <span class="stamp"></span></span></figcaption></figure>'
+        for t, img, page_url, mins in panels
     )
-    body = page_head("Live weather", "Current maps from NOAA. Images load live from NOAA servers; click one for the source page.")
+    body = page_head("Live weather", "Live maps from NOAA. Each image reloads by itself while this page is open (radar every 2 minutes, satellite every 5, analyses every 30). Click an image for its source page.")
     body += f'<section class="section"><div class="wrap"><div class="grid cards2">{figs}</div></div></section>'
     return body
 
@@ -403,6 +446,8 @@ def main():
     research = load("research")
     people = load("people")
     pubs = load("publications")
+    manuscripts = load("manuscripts")
+    conferences = load("conferences")
     teaching = load("teaching")
     news = load("news")
     cv = load("cv")
@@ -418,9 +463,9 @@ def main():
         "index.html": ("Home", build_home(site, research, news, pubs, people)),
         "research.html": ("Research", build_research(research, pubs)),
         "people.html": ("People", build_people(site, people)),
-        "publications.html": ("Publications", build_publications(site, pubs)),
-        "teaching.html": ("Teaching", build_teaching(teaching)),
-        "news.html": ("News", build_news(news)),
+        "publications.html": ("Publications", build_publications(site, pubs, manuscripts, conferences)),
+        "teaching.html": ("Teaching & Mentoring", build_teaching(teaching)),
+        "news.html": ("News & Media", build_news(news, cv)),
         "cv.html": ("CV", build_cv(site, cv)),
         "weather.html": ("Live weather", build_weather()),
     }
