@@ -1,0 +1,348 @@
+# Peer-reviewed publications, newest first.
+# Source: Portfolio/Publications.md in Y. Zheng's Obsidian vault (IDs P01-P49, verified against Crossref 2026-11-08).
+# Fields: id, year, authors, title, journal, details, doi (or url).
+# In authors: <u>Name</u> marks a student or postdoc supervised by Y. Zheng; * marks corresponding author.
+
+- id: P49
+  year: 2026
+  authors: "<u>Bhattarai, A.</u>, and Y. Zheng*"
+  title: "Uncertainty-aware machine learning for onset of deep convection: Under what conditions are trigger predictions more reliable?"
+  journal: "Geophysical Research Letters"
+  details: "53(15), e2026GL123315"
+  doi: "10.1029/2026GL123315"
+- id: P48
+  year: 2026
+  authors: "Su, T., Y. Zhang, Y. Zheng, N. Roldan-Henao, R. Kahn, and Z. Li"
+  title: "Remote sensing of planetary boundary layer from ground and space: Structure, thermodynamics, and boundary layer clouds"
+  journal: "Remote Sensing of Environment"
+  details: "344, 115544"
+  doi: "10.1016/j.rse.2026.115544"
+- id: P47
+  year: 2026
+  authors: "Feng, C., X. Liu, X. Zhao, Z. Lu, L. Lin, M. D. Zelinka, … Y. Zheng, … and R. Saravanan"
+  title: "Interconnection of aerosol-cloud interactions and cloud feedback through warm rain process"
+  journal: "Journal of Geophysical Research: Atmospheres"
+  details: "131(5), e2025JD044854"
+  doi: "10.1029/2025JD044854"
+- id: P46
+  year: 2026
+  authors: "<u>Zhang, H.</u>, Y. Zheng*, and Z. Li"
+  title: "Influence of surface aerosol injection on stratocumulus-to-cumulus transition: Cloud-surface coupling and background aerosol concentrations"
+  journal: "Journal of Geophysical Research: Atmospheres"
+  details: "131(2), e2025JD044444"
+  doi: "10.1029/2025JD044444"
+- id: P45
+  year: 2026
+  authors: "Roldán-Henao, N., T. Su, Z. Li, Y. Zheng, and J. Yorks"
+  title: "Climatology of cloud-land-surface coupling across different ARM sites"
+  journal: "Journal of Geophysical Research: Atmospheres"
+  details: "131(1), e2025JD044010"
+  doi: "10.1029/2025JD044010"
+- id: P44
+  year: 2025
+  authors: "Zheng, Y.*, N. Jeevanjee, P. Lin, D. Paynter, and Z. Tan"
+  title: "Physics or knob-tuning? Tropical anvil peak is captured by GCMs"
+  journal: "Geophysical Research Letters"
+  details: "52(20), e2025GL118740"
+  doi: "10.1029/2025GL118740"
+- id: P43
+  year: 2025
+  authors: "<u>Sarkar, M.</u>, R. Vogel, and Y. Zheng*"
+  title: "Microphysics dominates the sub-cloud rain evaporation in trade cumuli over Barbados"
+  journal: "Geophysical Research Letters"
+  details: "52(20), e2025GL114885"
+  doi: "10.1029/2025GL114885"
+- id: P42
+  year: 2025
+  authors: "<u>Oware, R. K. T.</u>, Y. Zheng*, P. Bogenschutz, Y. Zhang, H. Ma, S. Xie, and C. Tao"
+  title: "Evaluating E3SM global storm-resolving model simulations of deep convection: Insights from DP-SCREAM during TRACER"
+  journal: "Journal of Geophysical Research: Atmospheres"
+  details: "130(20), e2025JD044113"
+  doi: "10.1029/2025JD044113"
+- id: P41
+  year: 2025
+  authors: "<u>Zhang, H.</u>, Y. Zhang, Z. Li, and Y. Zheng*"
+  title: "Aerosol influences on cloud water: Insights from ARM EPCAPE observations with explainable machine learning"
+  journal: "Geophysical Research Letters"
+  details: "52(15), e2025GL115163"
+  doi: "10.1029/2025GL115163"
+- id: P40
+  year: 2025
+  authors: "Lee, S. S., C. H. Jung, J. Choi, Y. J. Yoon, J. Um, Y. Zheng, …, and K. J. Ha"
+  title: "Role of a key microphysical factor in mixed-phase stratocumulus clouds and their interactions with aerosols"
+  journal: "Atmospheric Chemistry and Physics"
+  details: "25(2), 705–726"
+  doi: "10.5194/acp-25-705-2025"
+- id: P39
+  year: 2024
+  authors: "Mülmenstädt, J., A. S. Ackerman, A. M. Fridlind, M. Huang, P.-L. Ma, N. Mahfouz, …, and Y. Zheng"
+  title: "Can general circulation models (GCMs) represent cloud liquid water path adjustments to aerosol–cloud interactions?"
+  journal: "Atmospheric Chemistry and Physics"
+  details: "24(23), 13633–13652"
+  doi: "10.5194/acp-24-13633-2024"
+- id: P38
+  year: 2024
+  authors: "<u>Zhang, H.</u>, Y. Zheng*, and Z. Li"
+  title: "Improving low-cloud fraction prediction through machine learning"
+  journal: "Geophysical Research Letters"
+  details: "51(15), e2024GL109735"
+  doi: "10.1029/2024GL109735"
+- id: P37
+  year: 2024
+  authors: "<u>Zhang, H.</u>, T. Su, Y. Zheng, and Z. Li"
+  title: "First assessment of cloud-land coupling in LASSO large-eddy simulations"
+  journal: "Geophysical Research Letters"
+  details: "51(14), e2024GL109774"
+  doi: "10.1029/2024GL109774"
+- id: P36
+  year: 2024
+  authors: "Mülmenstädt, J., E. Gryspeerdt, S. Dipu, J. Quaas, A. S. Ackerman, A. M. Fridlind, …, and T. Takemura"
+  title: "General circulation models simulate negative liquid water path–droplet number correlations, but anthropogenic aerosols still increase simulated liquid water path"
+  journal: "Atmospheric Chemistry and Physics"
+  details: "24(12), 7331–7345"
+  doi: "10.5194/acp-24-7331-2024"
+- id: P35
+  year: 2024
+  authors: "Su, T., Z. Li, Y. Zhang, Y. Zheng, and H. Zhang"
+  title: "Observation and reanalysis derived relationships between cloud and land surface fluxes across cumulus and stratiform coupling over the Southern Great Plains"
+  journal: "Geophysical Research Letters"
+  details: "51(8), e2023GL108090"
+  doi: "10.1029/2023GL108090"
+- id: P34
+  year: 2024
+  authors: "<u>Zhang, H.</u>, Y. Zheng*, and Z. Li"
+  title: "Evaluation of stratocumulus evolution under contrasting temperature advections in CESM2 through a Lagrangian framework"
+  journal: "Geophysical Research Letters"
+  details: "51(4), e2023GL106856"
+  doi: "10.1029/2023GL106856"
+- id: P33
+  year: 2023
+  authors: "Li, X., Z. Tan, Y. Zheng, M. Bushuk, and L. Donner"
+  title: "Open water in sea ice causes high bias in polar low-level clouds in GFDL CM4"
+  journal: "Geophysical Research Letters"
+  details: "50(24), e2023GL106322"
+  doi: "10.1029/2023GL106322"
+- id: P32
+  year: 2023
+  authors: "<u>Zhang, H.</u>, Y. Zheng*, S. S. Lee, and Z. Li"
+  title: "Surface-atmosphere decoupling prolongs cloud lifetime under warm advection due to reduced entrainment drying"
+  journal: "Geophysical Research Letters"
+  details: "50(10), e2022GL101663"
+  doi: "10.1029/2022GL101663"
+- id: P31
+  year: 2023
+  authors: "Su, T., Z. Li, and Y. Zheng"
+  title: "Cloud-surface coupling alters the morning transition from stable to unstable boundary layer"
+  journal: "Geophysical Research Letters"
+  details: "50(5), e2022GL102256"
+  doi: "10.1029/2022GL102256"
+- id: P30
+  year: 2023
+  authors: "Lee, S. S., et al. (including Y. Zheng)"
+  title: "Impacts of an aerosol layer on a midlatitude continental system of cumulus clouds: How do these impacts depend on the vertical location of the aerosol layer?"
+  journal: "Atmospheric Chemistry and Physics"
+  details: "23(1), 273–286"
+  doi: "10.5194/acp-23-273-2023"
+- id: P29
+  year: 2022
+  authors: "Zheng, Y.*, and Y. Ming"
+  title: "Low-level cloud budgets across sea ice edges"
+  journal: "Journal of Climate"
+  details: "36(1), 3–18"
+  doi: "10.1175/JCLI-D-22-0301.1"
+- id: P28
+  year: 2022
+  authors: "Su, T., Z. Li, Y. Zheng, et al."
+  title: "Aerosol-boundary layer interaction modulated entrainment process"
+  journal: "npj Climate and Atmospheric Science"
+  details: "5, 64"
+  doi: "10.1038/s41612-022-00283-1"
+- id: P27
+  year: 2022
+  authors: "Lee, S. S., et al. (including Y. Zheng)"
+  title: "Examination of aerosol impacts on convective clouds and precipitation in two metropolitan areas in East Asia; how varying depths of convective clouds between the areas diversify those aerosol effects?"
+  journal: "Atmospheric Chemistry and Physics"
+  details: "22(13), 9059–9081"
+  doi: "10.5194/acp-22-9059-2022"
+- id: P26
+  year: 2022
+  authors: "Xu, R., et al. (including Y. Zheng)"
+  title: "Contrasting impacts of forests on cloud cover based on satellite observations"
+  journal: "Nature Communications"
+  details: "13, 670"
+  doi: "10.1038/s41467-022-28161-7"
+- id: P25
+  year: 2022
+  authors: "Su, T., Y. Zheng, and Z. Li"
+  title: "Methodology to determine the coupling of continental clouds with surface and boundary layer height under cloudy conditions from lidar and meteorological data"
+  journal: "Atmospheric Chemistry and Physics"
+  details: "22(2), 1453–1466"
+  doi: "10.5194/acp-22-1453-2022"
+- id: P24
+  year: 2021
+  authors: "Zheng, Y.*, <u>H. Zhang</u>, D. Rosenfeld, S. S. Lee, T. Su, and Z. Li"
+  title: "Idealized large-eddy simulations of stratocumulus advecting over cold water. Part I: Boundary layer decoupling"
+  journal: "Journal of the Atmospheric Sciences"
+  details: "78(12), 4089–4102"
+  doi: "10.1175/JAS-D-21-0108.1"
+- id: P23
+  year: 2021
+  authors: "Lee, S. S., et al. (including Y. Zheng)"
+  title: "Midlatitude mixed-phase stratocumulus clouds and their interactions with aerosols: How ice processes affect microphysical, dynamic, and thermodynamic development in those clouds and interactions?"
+  journal: "Atmospheric Chemistry and Physics"
+  details: "21(22), 16843–16868"
+  doi: "10.5194/acp-21-16843-2021"
+- id: P22
+  year: 2021
+  authors: "Zheng, Y.*, Y. Zhu, D. Rosenfeld, and Z. Li"
+  title: "Climatology of cloud-top radiative cooling in marine shallow clouds"
+  journal: "Geophysical Research Letters"
+  details: "48(19), e2021GL094676"
+  doi: "10.1029/2021GL094676"
+- id: P21
+  year: 2021
+  authors: "Zheng, Y.*, H. Zhang, and Z. Li"
+  title: "Role of surface latent heat flux in shallow cloud transitions: A mechanism-denial LES study"
+  journal: "Journal of the Atmospheric Sciences"
+  details: "78(9), 2709–2723"
+  doi: "10.1175/JAS-D-20-0381.1"
+- id: P20
+  year: 2021
+  authors: "Zheng, Y.*, D. Rosenfeld, and Z. Li"
+  title: "Sub-cloud turbulence explains cloud-base updrafts for shallow cumulus ensembles: First observational evidence"
+  journal: "Geophysical Research Letters"
+  details: "48(6), e2020GL091881"
+  doi: "10.1029/2020GL091881"
+- id: P19
+  year: 2020
+  authors: "Zhao, P., Z. Li, H. Xiao, F. Wu, Y. Zheng, M. C. Cribb, …, and Y. Zhou"
+  title: "Distinct aerosol effects on cloud-to-ground lightning in the plateau and basin regions of Sichuan, Southwest China"
+  journal: "Atmospheric Chemistry and Physics"
+  details: "20(21), 13379–13397"
+  doi: "10.5194/acp-20-13379-2020"
+- id: P18
+  year: 2020
+  authors: "Su, T., Z. Li, Y. Zheng, Q. Luan, and J. Guo"
+  title: "Abnormally shallow boundary layer associated with severe air pollution during the COVID-19 lockdown in China"
+  journal: "Geophysical Research Letters"
+  details: "47(20), e2020GL090041"
+  doi: "10.1029/2020GL090041"
+- id: P17
+  year: 2020
+  authors: "Guo, J., X. Chen, T. Su, L. Liu, Y. Zheng, D. Chen, …, and Y. Li"
+  title: "The climatology of lower tropospheric temperature inversions in China from radiosonde measurements: Roles of black carbon, local meteorology, and large-scale subsidence"
+  journal: "Journal of Climate"
+  details: "33(21), 9327–9350"
+  doi: "10.1175/JCLI-D-19-0278.1"
+- id: P16
+  year: 2020
+  authors: "Zheng, Y.*, D. Rosenfeld, and Z. Li"
+  title: "A more general paradigm for understanding the decoupling of stratocumulus-topped boundary layers: The importance of horizontal temperature advection"
+  journal: "Geophysical Research Letters"
+  details: "47(14), e2020GL087697"
+  doi: "10.1029/2020GL087697"
+- id: P15
+  year: 2020
+  authors: "Zheng, Y.*, M. Sakradzija, S. S. Lee, and Z. Li"
+  title: "Theoretical understanding of the linear relationship between convective updrafts and cloud-base height for shallow cumulus clouds. Part II: Continental conditions"
+  journal: "Journal of the Atmospheric Sciences"
+  details: "77(4), 1313–1328"
+  doi: "10.1175/JAS-D-19-0301.1"
+- id: P14
+  year: 2020
+  authors: "Zhang, J., Y. Zheng, Z. Li, X. Xia, and H. Chen"
+  title: "A 17-year climatology of temperature inversions above clouds over the ARM SGP site: The roles of cloud radiative effects"
+  journal: "Atmospheric Research"
+  details: "237, 104810"
+  doi: "10.1016/j.atmosres.2019.104810"
+- id: P13
+  year: 2019
+  authors: "Zheng, Y.*, and Z. Li"
+  title: "Episodes of warm-air advection causing cloud-surface decoupling during the MARCUS"
+  journal: "Journal of Geophysical Research: Atmospheres"
+  details: "124(22), 12227–12243"
+  doi: "10.1029/2019JD030835"
+- id: P12
+  year: 2019
+  authors: "Li, Z., et al. (including Y. Zheng)"
+  title: "East Asian study of tropospheric aerosols and their impact on regional clouds, precipitation, and climate (EAST-AIRCPC)"
+  journal: "Journal of Geophysical Research: Atmospheres"
+  details: "124(23), 13026–13054"
+  doi: "10.1029/2019JD030758"
+- id: P11
+  year: 2019
+  authors: "Zhang, J., H. Chen, Y. Zhu, H. Shi, Y. Zheng, X. Xia, Y. Teng, F. Wang, X. Han, J. Li, and Y. Xuan"
+  title: "A novel method for estimating the vertical velocity of air with a descending radiosonde system"
+  journal: "Remote Sensing"
+  details: "11(13), 1538"
+  doi: "10.3390/rs11131538"
+- id: P10
+  year: 2019
+  authors: "Zheng, Y.*"
+  title: "Theoretical understanding of the linear relationship between convective updrafts and cloud-base height for shallow cumulus clouds. Part I: Maritime conditions"
+  journal: "Journal of the Atmospheric Sciences"
+  details: "76(8), 2539–2558"
+  doi: "10.1175/JAS-D-18-0323.1"
+- id: P09
+  year: 2019
+  authors: "Zheng, Y.*, D. Rosenfeld, Y. Zhu, and Z. Li"
+  title: "Satellite-based estimation of cloud top radiative cooling rate for marine stratocumulus"
+  journal: "Geophysical Research Letters"
+  details: "46(8), 4485–4494"
+  doi: "10.1029/2019GL082094"
+- id: P08
+  year: 2019
+  authors: "Rosenfeld, D., Y. Zhu, M. Wang, Y. Zheng, T. Goren, and S. Yu"
+  title: "Aerosol-driven droplet concentrations dominate coverage and water of oceanic low-level clouds"
+  journal: "Science"
+  details: "363(6427), eaav0566"
+  doi: "10.1126/science.aav0566"
+- id: P07
+  year: 2018
+  authors: "Zheng, Y.*, D. Rosenfeld, and Z. Li"
+  title: "Estimating the decoupling degree of subtropical marine stratocumulus decks from satellite"
+  journal: "Geophysical Research Letters"
+  details: "45(22), 12560–12568"
+  doi: "10.1029/2018GL078382"
+- id: P06
+  year: 2018
+  authors: "Zheng, Y.*, D. Rosenfeld, and Z. Li"
+  title: "The relationships between cloud top radiative cooling rates, surface latent heat fluxes, and cloud-base heights in marine stratocumulus"
+  journal: "Journal of Geophysical Research: Atmospheres"
+  details: "123(20), 11678–11690"
+  doi: "10.1029/2018JD028579"
+- id: P05
+  year: 2016
+  authors: "Zheng, Y.*, D. Rosenfeld, and Z. Li"
+  title: "Quantifying cloud base updraft speeds of marine stratocumulus from cloud top radiative cooling"
+  journal: "Geophysical Research Letters"
+  details: "43(21), 11407–11413"
+  doi: "10.1002/2016GL071185"
+- id: P04
+  year: 2016
+  authors: "Rosenfeld, D., Y. Zheng, E. Hashimshoni, M. Krüger, A. Jefferson, X. Yu, Y. Zhu, G. Liu, Z. Yue, B. Fischman, D. Giguzin, T. Goren, U. Pöschl, and M. O. Andreae"
+  title: "Satellite retrieval of cloud condensation nuclei concentrations by using clouds as CCN chambers"
+  journal: "Proceedings of the National Academy of Sciences"
+  details: "113(21), 5828–5834"
+  doi: "10.1073/pnas.1514044113"
+- id: P03
+  year: 2015
+  authors: "Zheng, Y.*, and D. Rosenfeld"
+  title: "Linear relation between convective cloud base height and updrafts and application to satellite retrievals"
+  journal: "Geophysical Research Letters"
+  details: "42(15), 6485–6491"
+  doi: "10.1002/2015GL064809"
+- id: P02
+  year: 2015
+  authors: "Zheng, Y., D. Rosenfeld, and Z. Li"
+  title: "Satellite inference of thermals and cloud-base updraft speeds based on retrieved surface and cloud-base temperatures"
+  journal: "Journal of the Atmospheric Sciences"
+  details: "72(6), 2411–2428"
+  doi: "10.1175/JAS-D-14-0283.1"
+- id: P01
+  year: 2014
+  authors: "Rosenfeld, D., B. Fishman, Y. Zheng, T. Goren, and D. Giguzin"
+  title: "Combined satellite and radar retrievals of drop concentration and CCN at convective cloud base"
+  journal: "Geophysical Research Letters"
+  details: "41(9), 3259–3265"
+  doi: "10.1002/2014GL059453"

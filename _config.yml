@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Dr. Youtong Zheng"
+title                    : "Youtong Zheng | WEAVE Lab"
 title_separator          : "-"
 name                     : &name "Youtong Zheng"
-description              : &description "Associate Research Scholar at AOS program, Princeton University and NOAA/GFDL "
+description              : &description "Youtong Zheng's research group (WEAVE Lab) at the University of Houston: clouds, convection, and climate."
 url                      : https://youtongzheng.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "youtongzheng/youtongzheng.github.io"
@@ -73,21 +73,21 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : false
   google:
     tracking_id          :
 
 
 # Site Author
 author:
-  name             : "Dr. Youtong Zheng"
+  name             : "Youtong Zheng"
   avatar           : "IMG_5998.JPG"
-  bio              : "Associate Research Scholar at AOS program, Princeton University and NOAA/GFDL"
-  location         : "Princeton, New Jersey"
-  employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  bio              : "Assistant Professor, Department of Earth and Atmospheric Sciences, University of Houston"
+  location         : "Houston, Texas"
+  employer         : "University of Houston"
+  pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=xTpHltEAAAAJ&hl=en"
-  email            :
+  email            : "yzheng18@uh.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          :
   vine             :
   weibo            :
   xing             :
@@ -123,6 +123,8 @@ include:
   - _pages
   - files
 exclude:
+  - AGENTS.md
+  - README.md
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
@@ -174,19 +176,7 @@ kramdown:
 
 
 # Collections
-collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
+collections: {}
 
 
 # Defaults
@@ -255,7 +245,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Chicago
 
 
 # Plugins
