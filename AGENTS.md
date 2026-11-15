@@ -21,6 +21,7 @@ The home page (agreed with Y. Zheng on 2026-11-15) has: one short paragraph (clo
 | Papers | `_data/publications.yml` (newest first) |
 | Manuscripts in review | `_data/manuscripts.yml` |
 | Courses, mentoring (images in `images/teaching/`) | `_pages/teaching.html` |
+| AI Agent Day sessions (latest shown on Teaching & Mentoring; all on /ai-agent-day/) | `_data/agent_day.yml` (newest first) |
 | About the PI: education, positions, awards, service, media | `_pages/cv.md` (URL /about-pi/) |
 | All news | `_pages/news.md` (keep the latest ~7 also on the home page) |
 | Live weather | `_pages/weather.md` |
@@ -32,3 +33,7 @@ The home page (agreed with Y. Zheng on 2026-11-15) has: one short paragraph (clo
 - New paper: add it at the top of `_data/publications.yml` (next `P##` ID from `Portfolio/Publications.md`) and remove it from `_data/manuscripts.yml`.
 - Do not use pronouns for people unless they are stated. Write in English.
 - Push to `master` only with Y. Zheng's approval; Pages rebuilds in about a minute. Check the changed page live afterwards.
+
+## AI Agent Day updates
+
+After each session is archived in the vault (Wiki/AI Agent Day), add a new entry at the top of `_data/agent_day.yml`: number, date, a short title, one line per talk, and a 3–6 sentence summary. Public text only: methods and lessons, no unpublished numbers or results, no vault links. The Teaching page then shows it as the latest session and the archive page lists all sessions automatically.

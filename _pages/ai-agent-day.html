@@ -1,0 +1,13 @@
+---
+title: "AI Agent Day: All Sessions"
+permalink: /ai-agent-day/
+author_profile: true
+---
+
+<p>Every Friday afternoon since October 2026, the WEAVE Lab meets to put AI agents to work on our own research. Newest sessions first. <a href="/teaching/#ai-agent-day">About AI Agent Day</a>.</p>
+
+{% for s in site.data.agent_day %}
+<h2 id="session-{{ s.number }}">#{{ s.number }} · {{ s.date | date: "%B %-d, %Y" }}: {{ s.title }}</h2>
+<ul>{% for t in s.talks %}<li>{{ t | markdownify | remove: '<p>' | remove: '</p>' }}</li>{% endfor %}</ul>
+{{ s.summary | markdownify }}
+{% endfor %}

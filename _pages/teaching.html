@@ -8,6 +8,8 @@ author_profile: true
 .course { display: flex; gap: 1.4em; align-items: flex-start; margin: 1.6em 0; padding-bottom: 1.4em; border-bottom: 1px solid #eee; }
 .course img { flex: 0 0 180px; width: 180px !important; max-width: 180px; height: 135px; object-fit: cover; object-position: center top; border-radius: 6px; }
 .course > div { flex: 1 1 auto; min-width: 0; }
+.agent-latest { background: #f7f5f1; border-left: 4px solid #b5172f; border-radius: 6px; padding: 0.4em 1.2em 0.6em; }
+.agent-latest h3 { margin-top: 0.8em; }
 .course img.portrait { flex-basis: 180px; height: 270px; object-fit: cover; object-position: center; }
 .course h3 { margin-top: 0; }
 .course .terms { font-size: 0.85em; color: #666; }
@@ -59,6 +61,18 @@ author_profile: true
 
 <h2>Mentoring</h2>
 
-<p>Students in the group own a real research question, with more guidance at the start and more independence as they grow. They are also trained for the field they will enter: in our weekly AI Agent Day, everyone learns to use AI agents in research and to check every result against evidence the AI did not make.</p>
+<p>Students in the group own a real research question, with more guidance at the start and more independence as they grow. They are also trained for the field they will enter, through our weekly AI Agent Day (below).</p>
 
-<p>Recent student honors include a DOE Office of Science Graduate Student Research (SCGSR) fellowship at Lawrence Livermore National Laboratory, an AMS Outstanding Student Presentation Award, a national-laboratory summer internship, and several university scholarships and travel awards. <a href="/group/">Meet the group</a>.</p>
+<p>Recent student honors include a DOE Office of Science Graduate Student Research (SCGSR) fellowship at Lawrence Livermore National Laboratory, an AMS Outstanding Student Presentation Award, national-laboratory summer internships, and several university scholarships and travel awards. <a href="/group/">Meet the group</a>.</p>
+
+<h2 id="ai-agent-day">AI Agent Day</h2>
+
+<p>AI agents became capable research tools in 2026, and our students will spend their careers working alongside them. Since October 2026, the group has met every Friday afternoon to put agents to work on our own research. Each week, members show concrete work: what they tried, what worked, and what failed. The rules are simple: the language model proposes, trusted code computes, and the scientist decides. Every agent result is checked against evidence the agent did not make.</p>
+
+{% assign s = site.data.agent_day[0] %}
+<div class="agent-latest">
+  <h3>Latest session: #{{ s.number }}, {{ s.date | date: "%B %-d, %Y" }}: {{ s.title }}</h3>
+  <ul>{% for t in s.talks %}<li>{{ t | markdownify | remove: '<p>' | remove: '</p>' }}</li>{% endfor %}</ul>
+  {{ s.summary | markdownify }}
+  <p><a href="/ai-agent-day/">All sessions &rarr;</a></p>
+</div>

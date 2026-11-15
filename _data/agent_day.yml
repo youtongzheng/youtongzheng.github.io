@@ -1,0 +1,61 @@
+# AI Agent Day sessions, newest first. The Teaching & Mentoring page shows the first entry;
+# /ai-agent-day/ lists all of them. Source: Wiki/AI Agent Day in Y. Zheng's vault.
+# Public text only: describe methods and lessons, never unpublished numbers or results.
+
+- number: 5
+  date: 2026-11-13
+  title: "Offloading the work, not the thinking"
+  talks:
+    - "Youtong Zheng, *Cognitive offloading vs. cognitive surrender*"
+    - "Ashish Bhattarai, *Agentic AI to test what a machine-learning classifier really learns*"
+  summary: >-
+    Youtong drew a line between two ways of using AI. In offloading, the AI does the work but you keep the
+    thinking; in surrender, the AI's answer simply becomes your answer. The group agreed on two checklists:
+    when learning, ask why, then say it back ("Here is how I understand it. What is wrong?"); when producing
+    a result, write down a guess first, decide the data and units yourself, read what the agent actually ran,
+    and compare with something the agent did not make. Ashish showed a team of five agents (designer, coder,
+    reviewer, evaluator, reporter) that runs one experiment from design to report, with the scientist approving
+    each step. The lesson: when a score looks too good, take information away and see what the model really
+    relies on. The agents ran each experiment on their own, but choosing the next one was still a human decision.
+
+- number: 4
+  date: 2026-11-06
+  title: "Write the goal as a test"
+  talks:
+    - "Raymond Oware, *Porting a prognostic aerosol scheme into a storm-resolving model with three agents*"
+    - "Yichan Li, *From chatbox to a research agent: Texas flash droughts*"
+  summary: >-
+    Raymond used three agents (model runner, analyst, report writer) to move an aerosol scheme from Fortran
+    into a C++ model. Progress was slow until the goal was written down as a pass/fail test; then a
+    conservation check quickly exposed where the cloud microphysics was losing droplets. Yichan built a main
+    agent with quality-control, processing, analysis, and review sub-agents, and found that checking the
+    results cost more than producing them, a "verification tax" every agent user should budget for.
+
+- number: 3
+  date: 2026-10-30
+  title: "Hard constraints keep tuning honest"
+  talks:
+    - "Oussama Romdhani, *Agent-assisted tuning of a storm-tracking tool on radar rainfall*"
+  summary: >-
+    Oussama let an agent tune a storm-tracking algorithm on Houston radar rainfall against explicit accuracy
+    criteria. Hard constraints that no score could override kept the tuning honest, and digging into
+    suspicious statistics revealed that a metric was measuring bookkeeping rather than the tracker itself.
+
+- number: 2
+  date: 2026-10-23
+  title: "What does a simple AI agent actually look like?"
+  talks:
+    - "Youtong Zheng, *What does a simple AI agent actually look like?*"
+  summary: >-
+    Youtong built an agent from about fifty lines of plain Python, to take the mystery out of it. The language
+    model only proposes the next step; trusted code does the computing; the scientist decides.
+
+- number: 1
+  date: 2026-10-16
+  title: "From chatting to doing"
+  talks:
+    - "Youtong Zheng, *From chatting to doing: AI agents in our research*"
+  summary: >-
+    The first session showed what separates an agent from a chatbot: an agent takes over the loop of running,
+    checking, and fixing. It also set the group's rules. Heavy jobs go through the queue, approvals stay on,
+    numbers come from trusted code, and an agent's interpretation is a hypothesis until a person checks it.
