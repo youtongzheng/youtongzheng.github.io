@@ -10,7 +10,7 @@
     - "Ashish Bhattarai, *Agentic AI to test what a machine-learning classifier really learns*"
   summary: >-
     Youtong drew a line between two ways of using AI. In offloading, the AI does the work but you keep the
-    thinking; in surrender, the AI's answer simply becomes your answer. The group agreed on two checklists:
+    thinking; in surrender, the AI's answer simply becomes your answer. The talk gave two checklists:
     when learning, ask why, then say it back ("Here is how I understand it. What is wrong?"); when producing
     a result, write down a guess first, decide the data and units yourself, read what the agent actually ran,
     and compare with something the agent did not make. Ashish showed a team of five agents (designer, coder,
