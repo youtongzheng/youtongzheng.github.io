@@ -8,6 +8,7 @@
   talks:
     - "Youtong Zheng, *Cognitive offloading vs. cognitive surrender*"
     - "Ashish Bhattarai, *Agentic AI to test what a machine-learning classifier really learns*"
+    - "May Pyae Sone, *How Eric Wolf helps me: organizing a team of agents*"
   summary: >-
     Youtong drew a line between two ways of using AI. In offloading, the AI does the work but you keep the
     thinking; in surrender, the AI's answer simply becomes your answer. The talk gave two checklists:
@@ -17,6 +18,11 @@
     reviewer, evaluator, reporter) that runs one experiment from design to report, with the scientist approving
     each step. The lesson: when a score looks too good, take information away and see what the model really
     relies on. The agents ran each experiment on their own, but choosing the next one was still a human decision.
+    May, an undergraduate in the group, used ideas from Eric Wolf's agentic-workflow seminar to turn a loose plan
+    into a written specification for her team of five sub-agents, with rules such as "evidence for every claim"
+    and raw data locked against changes. Her agent then refused to make a Houston rainfall forecast: the
+    "nearest" grid point in its data was open ocean thousands of kilometers away. Declining was the right
+    answer, and checking what the code actually picked is a habit worth keeping.
 
 - number: 4
   date: 2026-11-06
