@@ -10,7 +10,7 @@ The site promotes Youtong Zheng and the WEAVE Lab and attracts students, postdoc
 
 The layout, menu, and page structure are settled (as of 2026-11-14): Home, Group, Publications, Teaching & Mentoring, About the PI, News, Live Weather, on the academicpages theme. Future requests are small updates: add or correct information, adjust wording, fix a section. Do not change the theme, the menu structure, or the overall style unless Y. Zheng explicitly asks for a redesign.
 
-The home page opens with one integrated paragraph (core question, clouds and storms studied, tools woven together, "physics or knob-tuning" becoming "physics or shortcut" with AI agents) and a one-line list of topics. Keep it short enough to read at a glance.
+The home page (agreed with Y. Zheng on 2026-11-15) has: one short paragraph (clouds, storms, extreme weather; right answer for the right physical reason so predictions and projections can be trusted; weaving evidence; physics or knob-tuning becomes physics or shortcut with AI agents), a three-item topic list (storms in km-scale models; ML and AI agents; clouds, aerosols, boundary layer), one recognition sentence (three top awards, no details; DOE national-lab ties and student fellowships/internships), and one Joining us paragraph (self-motivated; no generic or AI-generated emails; TA speaking requirement). Do not name specific funders or projects in the research text. Change this text only after agreeing the wording in conversation.
 
 ## Where content lives
 

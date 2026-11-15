@@ -12,22 +12,17 @@ redirect_from:
 
 Welcome to the research group of **Youtong Zheng (郑又通)** in the [Department of Earth and Atmospheric Sciences](https://www.uh.edu/nsm/earth-atmospheric/) at the University of Houston.
 
-**We test whether weather and climate models get the right answer for the right physical reason.** We study clouds and storms, from the stratocumulus and shallow cumulus that cover the oceans to the thunderstorms of the Texas Gulf Coast. We weave together evidence no single tool provides: satellite and field observations, theory, simulations from large-eddy to kilometer scale, and machine learning. That combination matters more than ever. As models are increasingly built and tuned with AI, and AI agents run whole analyses on their own, the old question *physics or knob-tuning?* becomes ***physics or shortcut?*** The WEAVE Lab puts AI agents to work across all these tools, and builds the tests that keep them honest.
+The WEAVE Lab studies clouds, storms, and extreme weather. We ask whether models get **the right answer for the right physical reason**, because only then can we trust their predictions and projections, from tomorrow's storms to the climate decades ahead. Our strength is weaving evidence together: observations, theory, simulations across scales, and machine learning. As AI agents increasingly build and run our models, the old question *physics or knob-tuning?* becomes ***physics or shortcut?***
 
-**What we work on:** boundary-layer clouds · aerosol–cloud interactions · convective storms in kilometer-scale models · physically trustworthy AI
+**What we work on**
 
-Our work is funded by a [U.S. Department of Energy Early Career Award](https://www.uh.edu/nsm/news-events/stories/2023/1116-early-career-award.php), with partners at Lawrence Livermore, Pacific Northwest, and Argonne National Laboratories and NOAA's Geophysical Fluid Dynamics Laboratory.
+- Storms and extreme rainfall in kilometer-scale models
+- Machine learning and AI agents for weather and climate science
+- Clouds, aerosols, and the atmospheric boundary layer
 
-## Join us
+Youtong's work has been recognized with a U.S. Department of Energy Early Career Award, the Yuxiang Young Scholar Award, and the Chinese Government Award for Outstanding Students Abroad. The group works closely with DOE national laboratories; students have earned a DOE Office of Science Graduate Student Research fellowship and summer internships at Lawrence Livermore National Laboratory.
 
-We are looking for **self-motivated PhD students and postdocs**. What you get in the WEAVE Lab:
-
-- **Real questions and real tools.** Work with DOE's newest storm-resolving model, field data from Houston, and machine learning, on problems that matter to the Gulf Coast.
-- **National-lab connections.** Our students have spent summers and fellowships at Lawrence Livermore National Laboratory.
-- **AI-ready training.** A weekly AI Agent Day where the group learns to use AI agents in research, and to check what they produce.
-- **Students who win.** Group members have earned a DOE graduate fellowship, AMS presentation awards, and university scholarships.
-
-If you are interested, email Youtong at <yzheng18@uh.edu> with your CV and a short note on what you would like to work on.
+**Joining us.** Above all, we look for people who are self-motivated. If you write, tell us what in our work genuinely interests you and why. Generic or AI-generated emails will not be read. Prospective PhD students without a strong research background should include a spoken-English score that meets [UH's requirement for teaching assistants](https://publications.uh.edu/content.php?catoid=50&navoid=18937) (TOEFL iBT speaking 25 or higher, or IELTS speaking 7.5 or higher). Email: <yzheng18@uh.edu>
 
 ## Recent news
 
