@@ -30,6 +30,7 @@ The home page (agreed with Y. Zheng on 2026-11-15) has: one short paragraph (clo
 ## Rules
 
 - Facts come from `Portfolio/` in Y. Zheng's Obsidian vault; citation format and CV wording follow the latest CV (Applications/University of Michigan CLaSP 2026/CV Youtong Zheng.md): `<b>Y. Zheng</b>`; mentored group members underlined with their marker inside, e.g. `<u>Bhattarai, A.†</u>` (graduate student) or `<u>Sarkar, M.‡</u>` (postdoc); no corresponding-author marks. No paper counts or summary sentence on the Publications page.
+- **Links are required in News (standing rule, 2026-11-16):** every news item must carry a link to a public page about it (event, program, award, paper, abstract, news story, or a page on this site). Search for one before adding the item; only if nothing public exists may an item go without a link, and say so in the commit message. Keep the same links on the Group page's Student awards.
 - Add links wherever a public page exists: a news story or post for an award, the paper for a claim, and a paper's data or code (`links:` in `_data/publications.yml`, taken from the paper's Data Availability statement).
 - New paper: add it at the top of `_data/publications.yml` (next `P##` ID from `Portfolio/Publications.md`) and remove it from `_data/manuscripts.yml`.
 - Do not use pronouns for people unless they are stated. Write in English.
