@@ -32,6 +32,6 @@ Youtong's work has been recognized with a [U.S. Department of Energy Early Caree
 - **Aug 2026:** Ashish Bhattarai received the NSM Graduate Student Conference Travel Award for Fall 2026.
 - **Jul 2026:** Raymond Oware received the UH College of Natural Sciences and Mathematics Alumni Association (Eckhard Pfeifer/Carolyn Farb) Scholarship for 2026–2027.
 - **Jul 2026:** Ashish Bhattarai's paper on uncertainty-aware machine learning for the onset of deep convection is published in *Geophysical Research Letters*. [[Article]](https://doi.org/10.1029/2026GL123315)
-- **Jun 2026:** The group hosted two school teachers for a week of hands-on research through the NSF ALL RISE Research Experience for Teachers program; Ashish Bhattarai designed and led the project.
+- **Jun 2026:** The group hosted two middle-school teachers for a week of hands-on research through the NSF ALL RISE Research Experience for Teachers program; Ashish Bhattarai designed and led the project.
 
 [All news &rarr;](/news/)
