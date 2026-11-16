@@ -26,12 +26,8 @@ Youtong's work has been recognized with a [U.S. Department of Energy Early Caree
 
 ## Recent news
 
-- **Oct 2026:** The group launched **AI Agent Day**, a weekly session where members put AI agents to work on their own research and share what worked and what failed. [[Sessions]](/ai-agent-day/)
-- **Sep 2026:** Ashish Bhattarai took part in the EXPECT hackathon on AI for climate data at the German Climate Computing Center (DKRZ) in Hamburg, Germany.
-- **Sep 2026:** Dr. Yichan Li joined the group as a postdoctoral researcher, working on flash droughts that turn into extreme rain in Texas.
-- **Aug 2026:** Ashish Bhattarai received the NSM Graduate Student Conference Travel Award for Fall 2026.
-- **Jul 2026:** Raymond Oware received the UH College of Natural Sciences and Mathematics Alumni Association (Eckhard Pfeifer/Carolyn Farb) Scholarship for 2026–2027.
-- **Jul 2026:** Ashish Bhattarai's paper on uncertainty-aware machine learning for the onset of deep convection is published in *Geophysical Research Letters*. [[Article]](https://doi.org/10.1029/2026GL123315)
-- **Jun 2026:** The group hosted two middle-school teachers for a week of hands-on research through the NSF ALL RISE Research Experience for Teachers program; Ashish Bhattarai designed and led the project.
+{%- for n in site.data.news limit:7 %}
+- **{{ n.date }}:** {{ n.text }}
+{%- endfor %}
 
 [All news &rarr;](/news/)

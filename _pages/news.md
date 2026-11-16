@@ -4,29 +4,6 @@ permalink: /news/
 author_profile: true
 ---
 
-- **Oct 2026:** The group launched **AI Agent Day**, a weekly session where members put AI agents to work on their own research and share what worked and what failed. [[Sessions]](/ai-agent-day/)
-- **Sep 2026:** Ashish Bhattarai took part in the EXPECT hackathon on AI for climate data at the German Climate Computing Center (DKRZ) in Hamburg, Germany.
-- **Sep 2026:** Dr. Yichan Li joined the group as a postdoctoral researcher, working on flash droughts that turn into extreme rain in Texas.
-- **Aug 2026:** Ashish Bhattarai received the NSM Graduate Student Conference Travel Award for Fall 2026.
-- **Jul 2026:** Raymond Oware received the UH College of Natural Sciences and Mathematics Alumni Association (Eckhard Pfeifer/Carolyn Farb) Scholarship for 2026–2027.
-- **Jul 2026:** Ashish Bhattarai's paper on uncertainty-aware machine learning for the onset of deep convection is published in *Geophysical Research Letters*. [[Article]](https://doi.org/10.1029/2026GL123315)
-- **Jun 2026:** The group hosted two middle-school teachers for a week of hands-on research through the NSF ALL RISE Research Experience for Teachers program; Ashish Bhattarai designed and led the project.
-- **May 2026:** Raymond Oware received the department's Outstanding Graduate Work in Atmospheric Sciences Award. [[Link]](https://www.linkedin.com/feed/update/urn:li:activity:7459651947663441922/)
-- **Apr 2026:** Youtong presented the group's simulations of Texas Gulf Coast storms at the Workshop on High and Ultra-high Resolution Modeling of the Earth System, Texas A&M University. [[Program]](https://mitotic.github.io/hi-res-workshop2026/WorkshopSchedule.html)
-- **Feb 2026:** Raymond Oware won the Outstanding Student Presentation Award at the Fifth Symposium on Community Modeling and Innovation, AMS 2026 Annual Meeting. [[Link]](https://www.linkedin.com/feed/update/urn:li:activity:7431723796417531904/) [[EAS Newsletter]](https://newsletter.eas.uh.edu/issues/fall-2025-spring-2026/spotlight/poster-competition)
-- **Jan 2026:** The group gave eight presentations at the AMS Annual Meeting, from coastal storms to marine shallow clouds. [[Link]](https://www.linkedin.com/posts/youtong-zheng-509a878a_ams2026-houston-convection-share-7420230728195575808-CVfG)
-- **Jan 2026:** Ronin Costello was selected as a DOE Office of Science Graduate Student Research (SCGSR) Fellow and is spending two semesters at Lawrence Livermore National Laboratory studying Arctic cloud processes with DOE's Earth system models. [[NSM News]](https://www.uh.edu/nsm/news-events/stories/2026/0202-doe-award.php)
-- **Nov 2025:** Malinda Millangoda won second place in the Student Poster Presentation Award at the 27th Annual Robert E. Sheriff Lecture.
-- **Jun 2025:** Ashish Bhattarai received the UH College of Natural Sciences and Mathematics Alumni Association (Eckhard Pfeifer/Carolyn Farb) Scholarship for 2025–2026.
-- **May 2025:** Oussama Romdhani and Raymond Oware received the department's Outstanding Academic Achievement Scholarship in Atmospheric Science.
-- **Apr 2025:** Youtong received the University of Houston Presidential Circle Award for national recognition during 2023–2024.
-- **Mar 2025:** Raymond Oware was awarded a Lawrence Livermore National Laboratory Atmospheric, Earth & Energy Graduate Student Summer Internship.
-- **Dec 2024:** Three presentations at the AGU Fall Meeting: Youtong on GCM simulations of tropical anvil clouds [[Abstract]](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1677246), Raymond on SCREAM simulations of deep convection during TRACER [[Abstract]](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1618855), and Mampi Sarkar on the microphysical control of shallow rain evaporation [[Abstract]](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1710603).
-- **Aug 2024:** Youtong gave an Early Career presentation at the [2024 DOE EESM PI Meeting](https://eesm.science.energy.gov/2024-eesm-pi-meeting-agenda-and-presentations).
-- **Nov 2023:** Youtong spoke at the [UH STEM Zone Saturday Program](https://uh.edu/stem/events/stem-zone/), an outreach event for students from 23 counties.
-- **Sep 2023:** Youtong received a $875,000 Early Career Award from the U.S. Department of Energy. [[News]](https://uh.edu/nsm/news-events/stories/2023/1116-early-career-award.php)
-- **Jan 2023:** Talk on understanding cloudiness in the GFDL atmosphere model at the AMS Annual Meeting. [[Session]](https://ams.confex.com/ams/103ANNUAL/meetingapp.cgi/Session/62459)
-- **Dec 2022:** "Low-Level Cloud Budgets across Sea Ice Edges," with Yi Ming, published in the *Journal of Climate*. [[Article]](https://doi.org/10.1175/JCLI-D-22-0301.1)
-- **Jan 2022:** Two talks at the AMS Annual Meeting, on shallow cloud transitions and cloud-top radiative cooling. [[Talk 1]](https://ams.confex.com/ams/102ANNUAL/meetingapp.cgi/Paper/393012) [[Talk 2]](https://ams.confex.com/ams/102ANNUAL/meetingapp.cgi/Paper/393145)
-- **Dec 2021:** "Idealized Large-Eddy Simulations of Stratocumulus Advecting over Cold Water. Part I: Boundary Layer Decoupling" published in the *Journal of the Atmospheric Sciences*. [[Article]](https://doi.org/10.1175/JAS-D-21-0108.1)
-- **Oct 2021:** Youtong was profiled by the DOE ARM user facility. [[Article]](https://www.arm.gov/news/features/post/72903)
+{%- for n in site.data.news %}
+- **{{ n.date }}:** {{ n.text }}
+{%- endfor %}

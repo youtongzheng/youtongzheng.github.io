@@ -23,7 +23,7 @@ The home page (agreed with Y. Zheng on 2026-11-15) has: one short paragraph (clo
 | Courses, mentoring (images in `images/teaching/`) | `_pages/teaching.html` |
 | AI Agent Day sessions (latest shown on Teaching & Mentoring; all on /ai-agent-day/) | `_data/agent_day.yml` (newest first) |
 | About the PI: education, positions, awards, service, media | `_pages/cv.md` (URL /about-pi/) |
-| All news | `_pages/news.md` (keep the latest ~7 also on the home page) |
+| All news | `_data/news.yml` (newest first; the News page shows all, the home page the first 7 automatically) |
 | Live weather | `_pages/weather.md` |
 | Sidebar profile, menu | `_config.yml` (`author:`), `_data/navigation.yml` |
 
