@@ -4,10 +4,15 @@ permalink: /news/
 author_profile: true
 ---
 
+- **Oct 2026:** The group launched **AI Agent Day**, a weekly session where members put AI agents to work on their own research and share what worked and what failed. [[Sessions]](/ai-agent-day/)
+- **Sep 2026:** Ashish Bhattarai took part in the EXPECT hackathon on AI for climate data at the German Climate Computing Center (DKRZ) in Hamburg, Germany.
+- **Sep 2026:** Dr. Yichan Li joined the group as a postdoctoral researcher, working on flash droughts that turn into extreme rain in Texas.
 - **Aug 2026:** Ashish Bhattarai received the NSM Graduate Student Conference Travel Award for Fall 2026.
 - **Jul 2026:** Raymond Oware received the UH College of Natural Sciences and Mathematics Alumni Association (Eckhard Pfeifer/Carolyn Farb) Scholarship for 2026–2027.
 - **Jul 2026:** Ashish Bhattarai's paper on uncertainty-aware machine learning for the onset of deep convection is published in *Geophysical Research Letters*. [[Article]](https://doi.org/10.1029/2026GL123315)
+- **Jun 2026:** The group hosted two school teachers for a week of hands-on research through the NSF ALL RISE Research Experience for Teachers program; Ashish Bhattarai designed and led the project.
 - **May 2026:** Raymond Oware received the department's Outstanding Graduate Work in Atmospheric Sciences Award. [[Link]](https://www.linkedin.com/feed/update/urn:li:activity:7459651947663441922/)
+- **Apr 2026:** Youtong presented the group's simulations of Texas Gulf Coast storms at the Workshop on High and Ultra-high Resolution Modeling of the Earth System, Texas A&M University. [[Program]](https://mitotic.github.io/hi-res-workshop2026/WorkshopSchedule.html)
 - **Feb 2026:** Raymond Oware won the Outstanding Student Presentation Award at the Fifth Symposium on Community Modeling and Innovation, AMS 2026 Annual Meeting. [[Link]](https://www.linkedin.com/feed/update/urn:li:activity:7431723796417531904/) [[EAS Newsletter]](https://newsletter.eas.uh.edu/issues/fall-2025-spring-2026/spotlight/poster-competition)
 - **Jan 2026:** The group gave eight presentations at the AMS Annual Meeting, from coastal storms to marine shallow clouds. [[Link]](https://www.linkedin.com/posts/youtong-zheng-509a878a_ams2026-houston-convection-share-7420230728195575808-CVfG)
 - **Jan 2026:** Ronin Costello was selected as a DOE Office of Science Graduate Student Research (SCGSR) Fellow and is spending two semesters at Lawrence Livermore National Laboratory studying Arctic cloud processes with DOE's Earth system models. [[NSM News]](https://www.uh.edu/nsm/news-events/stories/2026/0202-doe-award.php)
