@@ -20,7 +20,7 @@ The WEAVE Lab studies clouds, storms, and extreme weather. We ask whether models
 - Machine learning and AI agents for weather and climate science
 - Clouds, aerosols, and the atmospheric boundary layer
 
-Youtong's work has been recognized with a U.S. Department of Energy Early Career Award, the Yuxiang Young Scholar Award, and the Chinese Government Award for Outstanding Students Abroad. The group works closely with DOE national laboratories; students have earned a DOE Office of Science Graduate Student Research fellowship and summer internships at Lawrence Livermore National Laboratory.
+Youtong's work has been recognized with a [U.S. Department of Energy Early Career Award](https://www.uh.edu/nsm/news-events/stories/2023/1116-early-career-award.php), the [Yuxiang Young Scholar Award](https://essic.umd.edu/?p=204), and the Chinese Government Award for Outstanding Students Abroad. The group works closely with DOE national laboratories; students have earned a [DOE Office of Science Graduate Student Research fellowship](https://www.uh.edu/nsm/news-events/stories/2026/0202-doe-award.php) and summer internships at Lawrence Livermore National Laboratory.
 
 **Joining us.** Above all, we look for people who are self-motivated. If you write, tell us what in our work genuinely interests you and why. Generic or AI-generated emails will not be read. Prospective PhD students without a strong research background should include a spoken-English score that meets [UH's requirement for teaching assistants](https://publications.uh.edu/content.php?catoid=50&navoid=18937) (TOEFL iBT speaking 25 or higher, or IELTS speaking 7.5 or higher). Email: <yzheng18@uh.edu>
 
