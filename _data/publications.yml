@@ -143,6 +143,8 @@
   journal: Geophysical Research Letters
   details: 50(24), e2023GL106322
   doi: 10.1029/2023GL106322
+  links:
+  - {label: "Data & code", url: "https://doi.org/10.5281/zenodo.10051598"}
 - id: P32
   year: 2023
   authors: <u>Zhang, H.†</u>, <b>Y. Zheng</b>, S. S. Lee, and Z. Li
