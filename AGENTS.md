@@ -30,6 +30,7 @@ The home page (agreed with Y. Zheng on 2026-11-15) has: one short paragraph (clo
 ## Rules
 
 - Facts come from `Portfolio/` in Y. Zheng's Obsidian vault; citation format and CV wording follow the latest CV (Applications/University of Michigan CLaSP 2026/CV Youtong Zheng.md): `<b>Y. Zheng</b>`; mentored group members underlined with their marker inside, e.g. `<u>Bhattarai, A.†</u>` (graduate student) or `<u>Sarkar, M.‡</u>` (postdoc); no corresponding-author marks. No paper counts or summary sentence on the Publications page.
+- Add links wherever a public page exists: a news story or post for an award, the paper for a claim, and a paper's data or code (`links:` in `_data/publications.yml`, taken from the paper's Data Availability statement).
 - New paper: add it at the top of `_data/publications.yml` (next `P##` ID from `Portfolio/Publications.md`) and remove it from `_data/manuscripts.yml`.
 - Do not use pronouns for people unless they are stated. Write in English.
 - Push to `master` only with Y. Zheng's approval, except AI Agent Day entries, which Y. Zheng asked (2026-11-15) to be added after each session. Pages rebuilds in about a minute. Check the changed page live afterwards.

@@ -7,6 +7,8 @@
   journal: Geophysical Research Letters
   details: 53(15), e2026GL123315
   doi: 10.1029/2026GL123315
+  links:
+  - {label: "Data & code", url: "https://zenodo.org/records/19674393"}
 - id: P48
   year: 2026
   authors: Su, T., Y. Zhang, <b>Y. Zheng</b>, N. Roldán-Henao, R. Kahn, and Z. Li
@@ -21,6 +23,8 @@
   journal: 'Journal of Geophysical Research: Atmospheres'
   details: 131(5), e2025JD044854
   doi: 10.1029/2025JD044854
+  links:
+  - {label: "Data", url: "https://doi.org/10.5281/zenodo.15857940"}
 - id: P46
   year: 2026
   authors: <u>Zhang, H.†</u>, <b>Y. Zheng</b>, and Z. Li
@@ -28,6 +32,8 @@
   journal: 'Journal of Geophysical Research: Atmospheres'
   details: 131(2), e2025JD044444
   doi: 10.1029/2025JD044444
+  links:
+  - {label: "Data", url: "https://doi.org/10.5281/zenodo.17872471"}
 - id: P45
   year: 2026
   authors: Roldán-Henao, N., T. Su, Z. Li, <b>Y. Zheng</b>, and J. Yorks
@@ -35,6 +41,8 @@
   journal: 'Journal of Geophysical Research: Atmospheres'
   details: 131(1), e2025JD044010
   doi: 10.1029/2025JD044010
+  links:
+  - {label: "Data", url: "https://zenodo.org/records/11061716"}
 - id: P44
   year: 2025
   authors: <b>Zheng, Y.</b>, N. Jeevanjee, P. Lin, D. Paynter, and Z. Tan
@@ -42,6 +50,8 @@
   journal: Geophysical Research Letters
   details: 52(20), e2025GL118740
   doi: 10.1029/2025GL118740
+  links:
+  - {label: "Data", url: "https://doi.org/10.5281/zenodo.16943830"}
 - id: P43
   year: 2025
   authors: <u>Sarkar, M.‡</u>, R. Vogel, and <b>Y. Zheng</b>
@@ -56,6 +66,8 @@
   journal: 'Journal of Geophysical Research: Atmospheres'
   details: 130(20), e2025JD044113
   doi: 10.1029/2025JD044113
+  links:
+  - {label: "Data & code", url: "https://zenodo.org/records/15271730"}
 - id: P41
   year: 2025
   authors: <u>Zhang, H.†</u>, Y. Zhang, Z. Li, and <b>Y. Zheng</b>
@@ -77,6 +89,9 @@
   journal: Atmospheric Chemistry and Physics
   details: 24(23), 13633–13652
   doi: 10.5194/acp-24-13633-2024
+  links:
+  - {label: "Data", url: "https://doi.org/10.5281/zenodo.14286196"}
+  - {label: "Code", url: "https://doi.org/10.5281/zenodo.14286145"}
 - id: P38
   year: 2024
   authors: <u>Zhang, H.†</u>, <b>Y. Zheng</b>, and Z. Li
@@ -98,6 +113,9 @@
   journal: Atmospheric Chemistry and Physics
   details: 24(12), 7331–7345
   doi: 10.5194/acp-24-7331-2024
+  links:
+  - {label: "Data", url: "https://doi.org/10.5281/zenodo.10449670"}
+  - {label: "Code", url: "https://doi.org/10.5281/zenodo.10449750"}
 - id: P35
   year: 2024
   authors: Su, T., Z. Li, Y. Zhang, <b>Y. Zheng</b>, and H. Zhang
@@ -126,6 +144,8 @@
   journal: Geophysical Research Letters
   details: 50(10), e2022GL101663
   doi: 10.1029/2022GL101663
+  links:
+  - {label: "Data", url: "https://doi.org/10.5281/zenodo.7478642"}
 - id: P31
   year: 2023
   authors: Su, T., Z. Li, and <b>Y. Zheng</b>
@@ -133,6 +153,8 @@
   journal: Geophysical Research Letters
   details: 50(5), e2022GL102256
   doi: 10.1029/2022GL102256
+  links:
+  - {label: "Data", url: "https://doi.org/10.5281/zenodo.7374849"}
 - id: P30
   year: 2023
   authors: Lee, S. S., et al. (including <b>Y. Zheng</b>)
@@ -154,6 +176,8 @@
   journal: npj Climate and Atmospheric Science
   details: 5(1), 64
   doi: 10.1038/s41612-022-00283-1
+  links:
+  - {label: "Data", url: "https://doi.org/10.5281/zenodo.5639046"}
 - id: P27
   year: 2022
   authors: Lee, S. S., et al. (including <b>Y. Zheng</b>)
@@ -168,6 +192,8 @@
   journal: Nature Communications
   details: 13, 670
   doi: 10.1038/s41467-022-28161-7
+  links:
+  - {label: "Data & code", url: "https://doi.org/10.6084/m9.figshare.15081510"}
 - id: P25
   year: 2022
   authors: Su, T., <b>Y. Zheng</b>, and Z. Li

@@ -38,11 +38,11 @@ author_profile: true
 
 ## Student awards
 
-- **2026** · AMS Outstanding Student Presentation Award, Fifth Symposium on Community Modeling and Innovation (Raymond Oware)
-- **2026** · Outstanding Graduate Work in Atmospheric Science Award, Department of Earth and Atmospheric Sciences (Raymond Oware)
+- **2026** · AMS Outstanding Student Presentation Award, Fifth Symposium on Community Modeling and Innovation (Raymond Oware) [[EAS Newsletter]](https://newsletter.eas.uh.edu/issues/fall-2025-spring-2026/spotlight/poster-competition) [[Post]](https://www.linkedin.com/feed/update/urn:li:activity:7431723796417531904/)
+- **2026** · Outstanding Graduate Work in Atmospheric Science Award, Department of Earth and Atmospheric Sciences (Raymond Oware) [[Post]](https://www.linkedin.com/feed/update/urn:li:activity:7459651947663441922/)
 - **2026** · NSM Alumni Association (Eckhard Pfeifer/Carolyn Farb) Scholarship, 2026–2027 (Raymond Oware)
 - **2026** · NSM Graduate Student Conference Travel Award (Ashish Bhattarai)
-- **2025** · DOE Office of Science Graduate Student Research (SCGSR) Award, Lawrence Livermore National Laboratory (Ronin Costello)
+- **2025** · DOE Office of Science Graduate Student Research (SCGSR) Award, Lawrence Livermore National Laboratory (Ronin Costello) [[UH News]](https://www.uh.edu/nsm/news-events/stories/2026/0202-doe-award.php)
 - **2025** · Student Poster Presentation Award, 27th Annual Robert E. Sheriff Lecture (Malinda Millangoda)
 - **2025** · UH Alumni Association (Eckhard Pfeifer/Carolyn Farb) Scholarship (Ashish Bhattarai)
 - **2025** · Outstanding Academic Achievement Scholarship in Atmospheric Science (Oussama Romdhani, Raymond Oware)

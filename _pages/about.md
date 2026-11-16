@@ -12,7 +12,7 @@ redirect_from:
 
 Welcome to the research group of **Youtong Zheng (郑又通)** in the [Department of Earth and Atmospheric Sciences](https://www.uh.edu/nsm/earth-atmospheric/) at the University of Houston.
 
-The WEAVE Lab studies clouds, storms, and extreme weather. We ask whether models get **the right answer for the right physical reason**, because only then can we trust their predictions and projections, from tomorrow's storms to the climate decades ahead. Our strength is weaving evidence together: observations, theory, simulations across scales, and machine learning. As AI agents increasingly build and run our models, the old question *physics or knob-tuning?* becomes ***physics or shortcut?***
+The WEAVE Lab studies clouds, storms, and extreme weather. We ask whether models get **the right answer for the right physical reason**, because only then can we trust their predictions and projections, from tomorrow's storms to the climate decades ahead. Our strength is weaving evidence together: observations, theory, simulations across scales, and machine learning. As AI agents increasingly build and run our models, the old question [*physics or knob-tuning?*](https://doi.org/10.1029/2025GL118740) becomes ***physics or shortcut?***
 
 **What we work on**
 
