@@ -45,6 +45,20 @@ Youtong Zheng is an Assistant Professor of atmospheric science at the University
 - **Proposal reviewer:** NASA ROSES, U.S. National Science Foundation, DOE Early Career Research Program, DOE FAIR, Austrian Science Fund.
 - **Journal reviewer:** *Nature Geoscience*, *Nature Communications*, *Journal of Climate*, *Geophysical Research Letters*, *Journal of Advances in Modeling Earth Systems*, *Journal of the Atmospheric Sciences*, *Atmospheric Chemistry and Physics*, *Remote Sensing of Environment*, *JGR-Atmospheres*, *Scientific Reports*, *Remote Sensing*, *Advances in Atmospheric Sciences*.
 
+**Department and university service (University of Houston)**
+
+- Member, Institute for Climate and Atmospheric Science (ICAS).
+- **2026–present:** Member, Academic Dishonesty Committee, Department of Earth and Atmospheric Sciences.
+- **2025–2026:** Academic program assessment for the B.S. in Atmospheric Science (Synoptic Meteorology learning outcome).
+- **Faculty judge:** Dobrin Day (2024); Student Research Day (2025); Three-Minute Thesis Competition (2025).
+- **Department seminar host:** Dr. Meng Zhang (Spring 2025), Dr. Die Wang (Fall 2025), Dr. Zong-Liang Yang (Spring 2026), Dr. Dev Niyogi (Fall 2026); Dr. Kelly Huang and Dr. Zhi Li (Spring 2027).
+- **Outreach:** host, NSF ALL RISE Research Experience for Teachers (two middle-school teachers, June 2026); invited speaker, UH STEM Zone Saturday (grades 3–12, November 2023).
+
+**Ph.D. committees (other advisers' students)**
+
+- **University of Houston, dissertation committees:** Shihab Ahmad Shahriar (Ph.D. 2025), Hadi Zanganeh Kia (Ph.D. 2025), Seyedeh Reyhaneh Shams (Ph.D. 2025), Farah Jeba, Olanrewaju O. Soneye-Arogundade, Rashik Islam, Arash Kashfi Yeganeh, Ensieh Sharafkhani.
+- **University of Maryland, external dissertation committee:** Stephen Windle (Ph.D. defense 2026).
+
 ## Media
 
 **Features and news**
