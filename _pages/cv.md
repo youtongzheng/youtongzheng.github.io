@@ -56,7 +56,7 @@ Youtong Zheng is an Assistant Professor of atmospheric science at the University
 
 **Ph.D. committees (other advisers' students)**
 
-- **University of Houston, dissertation committees:** Shihab Ahmad Shahriar (Ph.D. 2025), Hadi Zanganeh Kia (Ph.D. 2025), Seyedeh Reyhaneh Shams (Ph.D. 2025), Farah Jeba, Olanrewaju O. Soneye-Arogundade, Rashik Islam, Arash Kashfi Yeganeh, Ensieh Sharafkhani.
+- **University of Houston, dissertation committees:** Shihab Ahmad Shahriar (Ph.D. 2025), Hadi Zanganeh Kia (Ph.D. 2025), Seyedeh Reyhaneh Shams (Ph.D. 2025), Farah Jeba, Olanrewaju O. Soneye-Arogundade, Rashik Islam, Arash Kashfi Yeganeh, Ensieh Sharafkhani, Nirvan Abhilash.
 - **University of Maryland, external dissertation committee:** Stephen Windle (Ph.D. defense 2026).
 
 ## Media
