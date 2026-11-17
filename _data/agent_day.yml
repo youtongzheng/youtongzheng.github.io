@@ -9,6 +9,7 @@
     - "Youtong Zheng, *Cognitive offloading vs. cognitive surrender*"
     - "Ashish Bhattarai, *Agentic AI to test what a machine-learning classifier really learns*"
     - "May Pyae Sone, *How Eric Wolf helps me: organizing a team of agents*"
+    - "Malinda Millangoda, *Finding a hidden calendar error in storm-resolving model output*"
   summary: >-
     Youtong drew a line between two ways of using AI. In offloading, the AI does the work but you keep the
     thinking; in surrender, the AI's answer simply becomes your answer. The talk gave two checklists:
@@ -23,6 +24,11 @@
     and raw data locked against changes. Her agent then refused to make a Houston rainfall forecast: the
     "nearest" grid point in its data was open ocean thousands of kilometers away. Declining was the right
     answer, and checking what the code actually picked is a habit worth keeping.
+    Malinda used Claude Code to chase a puzzle in her model analysis: storm cells that grew colder and rainier
+    did not get brighter. The agent reproduced the original figures, tested several explanations, and found the
+    cause in the file metadata: the model uses a 365-day calendar, but the tracking masks had been read with the
+    standard calendar, so cells were matched to the wrong days. She then turned the fix into a reusable
+    validation skill that runs tested checks after every major change.
 
 - number: 4
   date: 2026-11-06
