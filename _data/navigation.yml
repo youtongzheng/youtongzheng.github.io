@@ -12,8 +12,8 @@ main:
   - title: "About the PI"
     url: /about-pi/
 
-  - title: "News"
-    url: /news/
+  - title: "Lab Handbook"
+    url: /handbook/
 
   - title: "Live Weather"
     url: /weather/

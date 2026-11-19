@@ -8,7 +8,7 @@ The site promotes Youtong Zheng and the WEAVE Lab and attracts students, postdoc
 
 ## Fixed framework (do not redesign)
 
-The layout, menu, and page structure are settled (as of 2026-11-14): Home, Group, Publications, Teaching & Mentoring, About the PI, News, Live Weather, on the academicpages theme. Future requests are small updates: add or correct information, adjust wording, fix a section. Do not change the theme, the menu structure, or the overall style unless Y. Zheng explicitly asks for a redesign.
+The layout, menu, and page structure are settled (as of 2026-11-14): Home, Group, Publications, Teaching & Mentoring, About the PI, Lab Handbook, Live Weather, on the academicpages theme. News is an archive page (/news/) reached from the home page's "All news" link, not from the menu (changed at Y. Zheng's request, 2026-11-19). Future requests are small updates: add or correct information, adjust wording, fix a section. Do not change the theme, the menu structure, or the overall style unless Y. Zheng explicitly asks for a redesign.
 
 The home page (agreed with Y. Zheng on 2026-11-15) has: one short paragraph (clouds, storms, extreme weather; right answer for the right physical reason so predictions and projections can be trusted; weaving evidence; physics or knob-tuning becomes physics or shortcut with AI agents), a three-item topic list (storms in km-scale models; ML and AI agents; clouds, aerosols, boundary layer), one recognition sentence (three top awards, no details; DOE national-lab ties and student fellowships/internships), and one Joining us paragraph (self-motivated; no generic or AI-generated emails; TA speaking requirement). Do not name specific funders or projects in the research text. Change this text only after agreeing the wording in conversation.
 
@@ -24,6 +24,7 @@ The home page (agreed with Y. Zheng on 2026-11-15) has: one short paragraph (clo
 | AI Agent Day sessions (latest shown on Teaching & Mentoring; all on /ai-agent-day/) | `_data/agent_day.yml` (newest first) |
 | About the PI: education, positions, awards, service, media | `_pages/cv.md` (URL /about-pi/) |
 | All news | `_data/news.yml` (newest first; the News page shows all, the home page the first 7 automatically) |
+| Lab Handbook: expectations for group members (presentations; later writing, meetings). One `##` section per topic, figures in `images/handbook/` | `_pages/handbook.md` |
 | Live weather | `_pages/weather.md` |
 | Sidebar profile, menu | `_config.yml` (`author:`), `_data/navigation.yml` |
 
