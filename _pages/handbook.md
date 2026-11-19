@@ -7,8 +7,8 @@ author_profile: true
 <style>
 .hb-section { border:1px solid #ddd; border-top:4px solid #b5172f; border-radius:6px; padding:0.4em 1.4em 0.6em; margin:2.2em 0 2.8em; }
 .hb-section > h2 { margin-top:0.6em; border-bottom:none; }
-.toc li { margin:0.3em 0; }
-.toc .dl { font-size:0.85em; color:#777; }
+.hb-toc li { margin:0.3em 0; }
+.hb-toc .dl { font-size:0.85em; color:#777; }
 .rule { margin:1.6em 0 2.4em; }
 .rule h3 { margin-bottom:0.2em; }
 .rule .why { margin:0 0 0.8em; color:#555; font-style:italic; }
@@ -18,7 +18,7 @@ author_profile: true
 How we work in the WEAVE Lab. Group members: bookmark this page and use it as a checklist.
 
 <p><b>Contents</b></p>
-<ul class="toc">
+<ul class="hb-toc">
   <li><a href="#presentations">Presentations</a> <span class="dl">· for your AI agent: <a href="/files/presentation-rules.md" download="presentation-rules.md">presentation-rules.md</a></span></li>
   <li><a href="#one-on-one-meetings">One-on-one meetings</a> <span class="dl">· for your AI agent: <a href="/files/meeting-rules.md" download="meeting-rules.md">meeting-rules.md</a></span></li>
 </ul>
