@@ -22,6 +22,10 @@ How we work in the WEAVE Lab. Group members: use this page as a checklist.
 
 For every talk: group meetings, committee meetings, and conferences such as AGU and AMS. The rules are listed in order of importance.
 
+Most of the time, your audience doesn't want to listen to you. Unless they are paid to be there, as a committee is, the only reason they stay is that your talk is worth their time. A talk that breaks these rules wastes it.
+
+**For your AI agent:** [presentation-rules.md](/files/presentation-rules.md){: download="presentation-rules.md"}. Download it and give it to your agent, so it can check your slides against these rules.
+
 <div class="rule" markdown="1">
 ### 1. One slide, one message
 <p class="why">Show everything, and you show nothing. A crowded slide means you don't know your point yet.</p>
