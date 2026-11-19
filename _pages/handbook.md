@@ -5,36 +5,35 @@ author_profile: true
 ---
 
 <style>
-.rules { font-size:1.05em; line-height:1.9; margin:0.6em 0 1.2em; }
+.hb-section { border:1px solid #ddd; border-top:4px solid #b5172f; border-radius:6px; padding:0.4em 1.4em 0.6em; margin:2.2em 0 2.8em; }
+.hb-section > h2 { margin-top:0.6em; border-bottom:none; }
+.toc li { margin:0.3em 0; }
+.toc .dl { font-size:0.85em; color:#777; }
 .rule { margin:1.6em 0 2.4em; }
 .rule h3 { margin-bottom:0.2em; }
 .rule .why { margin:0 0 0.8em; color:#555; font-style:italic; }
 .rule img { width:100%; max-width:680px; border:1px solid #e5e5e5; border-radius:6px; }
-.agent { font-size:0.9em; color:#555; }
 </style>
 
 How we work in the WEAVE Lab. Group members: bookmark this page and use it as a checklist.
 
-Contents
-- [Presentations](#presentations)
-- [One-on-one meetings](#one-on-one-meetings)
+<p><b>Contents</b></p>
+<ul class="toc">
+  <li><a href="#presentations">Presentations</a> <span class="dl">· for your AI agent: <a href="/files/presentation-rules.md" download="presentation-rules.md">presentation-rules.md</a></span></li>
+  <li><a href="#one-on-one-meetings">One-on-one meetings</a> <span class="dl">· for your AI agent: <a href="/files/meeting-rules.md" download="meeting-rules.md">meeting-rules.md</a></span></li>
+</ul>
 
-<!-- To add a section: add a line to Contents above, then a new "## Title" block below, following the existing pattern. -->
+<p class="dl" style="font-size:0.85em;color:#777">Download a rules file and give it to your AI agent, so it can check your work against these rules.</p>
+
+<!-- To add a section: add a line to Contents above (with its agent file in files/), then a new <div class="hb-section" markdown="1"> block below, following the existing pattern. -->
+
+<div class="hb-section" markdown="1">
 
 ## Presentations
 
 For every talk: group meetings, committee meetings, and conferences such as AGU and AMS.
 
-<ol class="rules">
-  <li>One slide, one message</li>
-  <li>Big figures, big fonts</li>
-  <li>Build it up, tell a story</li>
-  <li>Bonus: hook first, end on the takeaway</li>
-</ol>
-
 Most of the time, your audience doesn't want to listen to you. Unless they are paid to be there, as a committee is, the only reason they stay is that your talk is worth their time. A talk that breaks these rules wastes it.
-
-<p class="agent">For your AI agent: <a href="/files/presentation-rules.md" download="presentation-rules.md">presentation-rules.md</a>. Download it and give it to your agent, so it can check your slides against these rules.</p>
 
 <div class="rule" markdown="1">
 ### 1. One slide, one message
@@ -60,17 +59,13 @@ Most of the time, your audience doesn't want to listen to you. Unless they are p
 <img src="/images/handbook/hook-takeaway.svg" alt="Bad: Title, Outline, Data, Results, Thanks. Good: the talk opens with a hook and closes with a takeaway slide carrying the same message.">
 </div>
 
+</div>
+
+<div class="hb-section" markdown="1">
+
 ## One-on-one meetings
 
 For research updates with me. A quick question that takes a few minutes doesn't need a meeting; just ask.
-
-<ol class="rules">
-  <li>Think it through before we meet</li>
-  <li>Schedule ahead, send slides 30 minutes before</li>
-  <li>Slides that tell the story without you</li>
-</ol>
-
-<p class="agent">For your AI agent: <a href="/files/meeting-rules.md" download="meeting-rules.md">meeting-rules.md</a>.</p>
 
 <div class="rule" markdown="1">
 ### 1. Think it through before we meet
@@ -88,4 +83,6 @@ Book a time with me in advance, and email your slides at least 30 minutes before
 ### 3. Slides that tell the story without you
 <p class="why">A pile of figures is not an update.</p>
 If I read your slides alone, I should be able to follow the story and find the key takeaway. Give each figure a one-sentence title saying what it shows.
+</div>
+
 </div>
