@@ -19,11 +19,9 @@ How we work in the WEAVE Lab. Group members: bookmark this page and use it as a 
 
 <p><b>Contents</b></p>
 <ul class="hb-toc">
-  <li><a href="#presentations">Presentations</a> <span class="dl">· for your AI agent: <a href="/files/presentation-rules.md" download="presentation-rules.md">presentation-rules.md</a></span></li>
-  <li><a href="#one-on-one-meetings">One-on-one meetings</a> <span class="dl">· for your AI agent: <a href="/files/meeting-rules.md" download="meeting-rules.md">meeting-rules.md</a></span></li>
+  <li><a href="#presentations">Presentations</a> <span class="dl">· <a href="/files/presentation-rules.md" download="presentation-rules.md">.md</a></span></li>
+  <li><a href="#one-on-one-meetings">One-on-one meetings</a> <span class="dl">· <a href="/files/meeting-rules.md" download="meeting-rules.md">.md</a></span></li>
 </ul>
-
-<p class="dl" style="font-size:0.85em;color:#777">Download a rules file and give it to your AI agent, so it can check your work against these rules.</p>
 
 <!-- To add a section: add a line to Contents above (with its agent file in files/), then a new <div class="hb-section" markdown="1"> block below, following the existing pattern. -->
 
@@ -80,9 +78,9 @@ Book a time with me in advance, and email your slides at least 30 minutes before
 </div>
 
 <div class="rule" markdown="1">
-### 3. Slides that tell the story without you
-<p class="why">A pile of figures is not an update.</p>
-If I read your slides alone, I should be able to follow the story and find the key takeaway. Give each figure a one-sentence title saying what it shows.
+### 3. Bonus: a story up front, every figure in the back
+<p class="why">The best meetings find any figure we need in seconds.</p>
+Bring as many figures as you can. Ideally, the main slides tell the story, so that even reading them without you I can find the key takeaway. Figures outside the story go into supplementary slides at the end; when a new question comes up in our discussion, we can find the figure there quickly.
 </div>
 
 </div>
