@@ -44,6 +44,14 @@ Not required, but it makes a good talk better. Why: if you can say it in one sen
 - End with a takeaway slide that repeats the 1–3 key messages, not "Thank you" or "Questions?"
 - The hook and the takeaway carry the same message.
 
+## A common trap
+
+It's natural to want to show how much work you've done, with many slides, many figures, and every detail. But a long, crowded talk makes your audience work hard to find your point. Speaking without a clear main message has the same effect: it's easy to spend too long on something small.
+
+In a group meeting this is fine; it's a safe place to practice. In a job interview, it matters a lot. So build the habit now: put the effort into your everyday work, and in the talk, say less and keep only what matters most.
+
+Your audience is there for your message. Make it easy for them to get it.
+
 ## Instructions for an AI agent reviewing slides
 
 When the user asks you to review a slide deck against these rules:
@@ -51,5 +59,6 @@ When the user asks you to review a slide deck against these rules:
 1. Read every slide (titles, text, figures, and speaker notes if available).
 2. For each slide, check rules 1 and 2. Report the slide number, the rule broken, and a concrete fix (e.g., a rewritten sentence title, which panels to drop, which labels to enlarge).
 3. For the whole deck, check rules 3 and 4: Is there a clear story? Which slides should be built up step by step? Rule 4 is a bonus, not a requirement: suggest a hook or a takeaway slide, but do not count their absence as a failure.
-4. State the talk's main message in one sentence. If you cannot, say so: the deck may not have one yet.
-5. Rank your suggestions by the order of the rules above. Be brief and specific.
+4. Point out slides that seem to be there only to show effort and do not support the main message, and say so gently if the deck looks too long for its time slot.
+5. State the talk's main message in one sentence. If you cannot, say so: the deck may not have one yet.
+6. Rank your suggestions by the order of the rules above. Be brief and specific.
