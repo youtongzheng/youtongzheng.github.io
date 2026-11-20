@@ -2,6 +2,21 @@
 # /ai-agent-day/ lists all of them. Source: Wiki/AI Agent Day in Y. Zheng's vault.
 # Public text only: describe methods and lessons, never unpublished numbers or results.
 
+- number: 6
+  date: 2026-11-20
+  title: "Check the figure, not just the numbers"
+  talks:
+    - "Oussama Romdhani, *Can AI agents reproduce a published model figure?*"
+  summary: >-
+    Oussama built a small benchmark that asks AI agents to reproduce a figure from a published WRF study:
+    vertical profiles of turbulent mixing in three simulations. He compared three levels of freedom: an agent
+    that only assembles validated tools, one that writes a single script, and one that explores the data on
+    its own, each with large and small models. The numbers came out right, but a physics mistake in one
+    figure, plotting a mixing coefficient the model does not actually use, slipped through, because the
+    grader only checked that an image existed. A vaguer prompt led to correct numbers being marked wrong over
+    column names and rounding. The lessons: state the physical rule and the output format in the prompt, and
+    check the figure, not just the numbers.
+
 - number: 5
   date: 2026-11-13
   title: "Offloading the work, not the thinking"
