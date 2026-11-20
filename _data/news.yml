@@ -1,7 +1,7 @@
 # All news, newest first. The News page shows every item; the home page shows the first 7.
 # date: "Mon YYYY"; text: Markdown (links, *italics*, **bold**).
 - date: Nov 2026
-  text: Ashish Bhattarai was selected for full travel funding to attend the workshop "Learning the Extremes: AI for Prediction, Dynamics, and Stabilization of Hydroclimatic Risk" at Arizona State University in February 2027. [[Event]](https://asuevents.asu.edu/event/learning-extremes-ai-prediction-dynamics-and-stabilization-hydroclimatic-risk)
+  text: 'Ashish Bhattarai was selected for full travel funding to attend the workshop "Learning the Extremes: AI for Prediction, Dynamics, and Stabilization of Hydroclimatic Risk" at Arizona State University in February 2027. [[Event]](https://asuevents.asu.edu/event/learning-extremes-ai-prediction-dynamics-and-stabilization-hydroclimatic-risk)'
 - date: Oct 2026
   text: The group launched **AI Agent Day**, a weekly session where members put AI agents to work on their own research and share what worked and what failed. [[Sessions]](/ai-agent-day/)
 - date: Sep 2026
