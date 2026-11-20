@@ -50,7 +50,13 @@ For every talk you give, from group meetings to conferences.
 </div>
 
 <div class="rule" markdown="1">
-### 4. Bonus: hook first, end on the takeaway
+### 4. Number your slides; cut everything else
+<p class="why">Page numbers let your audience point to a slide when they ask a question. Logos, your institute name, and the date on every slide are noise: they belong on the title slide, if anywhere.</p>
+<img src="/images/handbook/clean-slides.svg" alt="Bad: a slide with a university logo in the corner, a footer with name, university, and meeting, and no slide number. Good: the same slide with only the title, the figure, and a small slide number.">
+</div>
+
+<div class="rule" markdown="1">
+### 5. Bonus: hook first, end on the takeaway
 <p class="why">Not required, but it makes a good talk better. If you can say it in one sentence, you know what you want to convey.</p>
 <img src="/images/handbook/hook-takeaway.svg" alt="Bad: Title, Outline, Data, Results, Thanks. Good: the talk opens with a hook and closes with a takeaway slide carrying the same message.">
 </div>

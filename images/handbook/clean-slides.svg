@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 210" role="img" font-family="Helvetica, Arial, sans-serif">
+<title>Number your slides, cut everything else: a slide with logo and footer and no number versus the same slide with only title, figure, and a slide number</title>
+<rect width="680" height="210" fill="#ffffff"/>
+<text x="170" y="20" text-anchor="middle" font-size="15" font-weight="bold" fill="#A32D2D">Bad</text>
+<text x="510" y="20" text-anchor="middle" font-size="15" font-weight="bold" fill="#0F6E56">Good</text>
+<rect x="20" y="30" width="300" height="169" rx="4" fill="none" stroke="#888780"/>
+<rect x="268" y="38" width="44" height="22" rx="3" fill="#C8102E"/><text x="290" y="53" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">LOGO</text>
+<text x="32" y="54" font-size="12" font-weight="bold" fill="#2C2C2A">Large storms are too dark</text>
+<path d="M50 70 L50 160 L240 160" fill="none" stroke="#888780" stroke-width="1.5"/>
+<path d="M58 152 L105 132 L150 108 L195 88 L230 80" fill="none" stroke="#378ADD" stroke-width="2.5"/>
+<path d="M58 150 L105 147 L150 145 L195 144 L230 143" fill="none" stroke="#D85A30" stroke-width="2.5"/>
+<rect x="20" y="172" width="300" height="27" fill="#EEEDEA"/>
+<text x="32" y="190" font-size="10" fill="#5F5E5A">Your Name · University of Houston · AGU 2026 · Dept. of EAS</text>
+<rect x="360" y="30" width="300" height="169" rx="4" fill="none" stroke="#888780"/>
+<text x="372" y="54" font-size="12" font-weight="bold" fill="#2C2C2A">Large storms are too dark</text>
+<path d="M390 70 L390 176 L630 176" fill="none" stroke="#888780" stroke-width="1.5"/>
+<path d="M400 166 L460 142 L520 112 L580 90 L625 82" fill="none" stroke="#378ADD" stroke-width="3"/>
+<path d="M400 164 L460 160 L520 157 L580 156 L625 155" fill="none" stroke="#D85A30" stroke-width="3"/>
+<text x="650" y="192" font-size="13" font-weight="bold" fill="#2C2C2A" text-anchor="end">7</text>
+</svg>
