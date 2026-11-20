@@ -31,9 +31,11 @@ How we work in the WEAVE Lab. Group members: bookmark this page and use it as a 
 
 For every talk: group meetings, committee meetings, and conferences such as AGU and AMS.
 
-Most of the time, your audience doesn't want to listen to you. Unless they are paid to be there, as a committee is, the only reason they stay is that your talk is worth their time.
+**A talk is communication, not an exam.** It's easy to feel that presenting means being judged, so you defend yourself and try to show how good you are. But a talk is you and your audience working together on a bigger question. Their questions and criticism are help, not attacks.
 
-It's natural to want to show how much work you've done, with many slides, many figures, and every detail. But that makes your audience work hard to find your point. **Put the effort into your everyday work; in the talk, say less and keep only what matters most.** A group meeting is a safe place to practice this; a job interview is where it counts.
+**Your audience is there for your message.** Most of the time, they don't want to listen to you. Unless they are paid to be there, as a committee is, the only reason they stay is that your talk is worth their time.
+
+**So say less.** It's natural to want to show how much you've done, with many slides, many figures, and every detail, but that makes your audience work hard to find your point. Put the effort into your everyday work; in the talk, keep only what matters most. A group meeting is a safe place to practice this; a job interview is where it counts. The rules below show how.
 
 <div class="rule" markdown="1">
 ### 1. One slide, one message
