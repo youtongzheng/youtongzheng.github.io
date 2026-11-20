@@ -31,14 +31,6 @@ How we work in the WEAVE Lab. Group members: bookmark this page and use it as a 
 
 ## Presentations
 
-<div class="hb-ideas" markdown="1">
-<p class="hb-label">Why: two ideas behind every rule</p>
-
-**A talk is communication, not a judgment.** Many students treat a talk as being judged, so they try to prove themselves by showing everything they did: many slides, many figures, every detail. That confuses the audience. A talk is you and your audience working together on a bigger question. Ask "What do they need to understand?", not "How do I look?" Put the effort into your everyday work; in the talk, keep only what matters most.
-
-**Your audience owes you nothing.** Most of the time, they don't want to listen to you. Unless they are paid to be there, as a committee is, the only reason they stay is that your talk is worth their time. Every slide has to earn its place.
-</div>
-
 <p class="hb-label">The rules, in order of importance</p>
 
 <div class="rule" markdown="1">
@@ -64,6 +56,15 @@ How we work in the WEAVE Lab. Group members: bookmark this page and use it as a 
 <p class="why">Not required, but it makes a good talk better. If you can say it in one sentence, you know what you want to convey.</p>
 <img src="/images/handbook/hook-takeaway.svg" alt="Bad: Title, Outline, Data, Results, Thanks. Good: the talk opens with a hook and closes with a takeaway slide carrying the same message.">
 </div>
+
+<div class="hb-ideas" markdown="1">
+<p class="hb-label">Why these rules: two ideas</p>
+
+**A talk is communication, not a judgment.** Many students treat a talk as being judged, so they try to prove themselves by showing everything they did: many slides, many figures, every detail. That confuses the audience. A talk is you and your audience working together on a bigger question. Ask "What do they need to understand?", not "How do I look?" Put the effort into your everyday work; in the talk, keep only what matters most.
+
+**Your audience owes you nothing.** Most of the time, they don't want to listen to you. Unless they are paid to be there, as a committee is, the only reason they stay is that your talk is worth their time. Every slide has to earn its place.
+</div>
+
 
 </div>
 

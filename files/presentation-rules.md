@@ -2,14 +2,6 @@
 
 Source: https://youtongzheng.github.io/handbook/#presentations (Youtong Zheng's group, University of Houston).
 
-## Why they matter
-
-Every rule below comes from two ideas.
-
-**A talk is communication, not a judgment.** Many students treat a talk as being judged, so they try to prove themselves by showing everything they did: many slides, many figures, every detail. That confuses the audience. A talk is you and your audience working together on a bigger question. Ask "What do they need to understand?", not "How do I look?" Put the effort into your everyday work; in the talk, keep only what matters most.
-
-**Your audience owes you nothing.** Most of the time, they don't want to listen to you. Unless they are paid to be there, as a committee is, the only reason they stay is that your talk is worth their time. Every slide has to earn its place.
-
 ## The rules, in order of importance
 
 ### 1. One slide, one message
@@ -45,6 +37,14 @@ Not required, but it makes a good talk better. Why: if you can say it in one sen
 - If possible, show the key takeaway near the start to catch attention.
 - End with a takeaway slide that repeats the 1–3 key messages, not "Thank you" or "Questions?"
 - The hook and the takeaway carry the same message.
+
+## Why these rules: two ideas
+
+Every rule above comes from two ideas.
+
+**A talk is communication, not a judgment.** Many students treat a talk as being judged, so they try to prove themselves by showing everything they did: many slides, many figures, every detail. That confuses the audience. A talk is you and your audience working together on a bigger question. Ask "What do they need to understand?", not "How do I look?" Put the effort into your everyday work; in the talk, keep only what matters most.
+
+**Your audience owes you nothing.** Most of the time, they don't want to listen to you. Unless they are paid to be there, as a committee is, the only reason they stay is that your talk is worth their time. Every slide has to earn its place.
 
 ## Instructions for an AI agent reviewing slides
 
