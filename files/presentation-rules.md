@@ -2,15 +2,13 @@
 
 Source: https://youtongzheng.github.io/handbook/#presentations (Youtong Zheng's group, University of Houston).
 
-These rules apply to every talk: group meetings, committee meetings, and conferences such as AGU and AMS.
-
 ## Why they matter
 
-**A talk is communication, not an exam.** It's easy to feel that presenting means being judged, so you defend yourself and try to show how good you are. But a talk is you and your audience working together on a bigger question. Their questions and criticism are help, not attacks.
+Every rule below comes from two ideas.
 
-**Your audience is there for your message.** Most of the time, they don't want to listen to you. Unless they are paid to be there, as a committee is, the only reason they stay is that your talk is worth their time.
+**1. A talk is communication, not a judgment.** Many students treat a talk as being judged, so they try to prove themselves by showing everything they did: many slides, many figures, every detail. That confuses the audience. A talk is you and your audience working together on a bigger question. Ask "What do they need to understand?", not "How do I look?" Put the effort into your everyday work; in the talk, keep only what matters most.
 
-**So say less.** It's natural to want to show how much you've done, with many slides, many figures, and every detail, but that makes your audience work hard to find your point. Put the effort into your everyday work; in the talk, keep only what matters most. A group meeting is a safe place to practice this; a job interview is where it counts. The rules below show how.
+**2. Your audience owes you nothing.** Most of the time, they don't want to listen to you. Unless they are paid to be there, as a committee is, the only reason they stay is that your talk is worth their time. Every slide has to earn its place.
 
 ## The rules, in order of importance
 
