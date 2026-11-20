@@ -9,8 +9,6 @@ author_profile: true
 .hb-section > h2 { margin-top:0.6em; border-bottom:none; }
 .hb-toc li { margin:0.3em 0; }
 .hb-toc .dl { font-size:0.85em; color:#777; }
-.hb-ideas { background:#f6f6f6; border-left:4px solid #999; border-radius:4px; padding:0.6em 1.2em 0.2em; margin:1em 0 2.4em; }
-.hb-label { font-size:0.8em; font-weight:bold; letter-spacing:0.06em; text-transform:uppercase; color:#777; margin:0 0 0.6em; }
 .rule { margin:1.6em 0 2.4em; }
 .rule h3 { margin-bottom:0.2em; }
 .rule .why { margin:0 0 0.8em; color:#555; font-style:italic; }
@@ -31,7 +29,7 @@ How we work in the WEAVE Lab. Group members: bookmark this page and use it as a 
 
 ## Presentations
 
-<p class="hb-label">The rules, in order of importance</p>
+For every talk you give, from group meetings to conferences.
 
 <div class="rule" markdown="1">
 ### 1. One slide, one message
@@ -57,14 +55,14 @@ How we work in the WEAVE Lab. Group members: bookmark this page and use it as a 
 <img src="/images/handbook/hook-takeaway.svg" alt="Bad: Title, Outline, Data, Results, Thanks. Good: the talk opens with a hook and closes with a takeaway slide carrying the same message.">
 </div>
 
-<div class="hb-ideas" markdown="1">
-<p class="hb-label">Why these rules: two ideas</p>
+<div class="rule" markdown="1">
+### Why these rules
+<p class="why">Every rule comes from two ideas.</p>
 
 **A talk is communication, not a judgment.** Many students treat a talk as being judged, so they try to prove themselves by showing everything they did: many slides, many figures, every detail. That confuses the audience. A talk is you and your audience working together on a bigger question. Ask "What do they need to understand?", not "How do I look?" Put the effort into your everyday work; in the talk, keep only what matters most.
 
 **Your audience owes you nothing.** Most of the time, they don't want to listen to you. Unless they are paid to be there, as a committee is, the only reason they stay is that your talk is worth their time. Every slide has to earn its place.
 </div>
-
 
 </div>
 
