@@ -31,9 +31,9 @@ How we work in the WEAVE Lab. Group members: bookmark this page and use it as a 
 
 Every rule below comes from two ideas.
 
-**1. A talk is communication, not a judgment.** Many students treat a talk as being judged, so they try to prove themselves by showing everything they did: many slides, many figures, every detail. That confuses the audience. A talk is you and your audience working together on a bigger question. Ask "What do they need to understand?", not "How do I look?" Put the effort into your everyday work; in the talk, keep only what matters most.
+**A talk is communication, not a judgment.** Many students treat a talk as being judged, so they try to prove themselves by showing everything they did: many slides, many figures, every detail. That confuses the audience. A talk is you and your audience working together on a bigger question. Ask "What do they need to understand?", not "How do I look?" Put the effort into your everyday work; in the talk, keep only what matters most.
 
-**2. Your audience owes you nothing.** Most of the time, they don't want to listen to you. Unless they are paid to be there, as a committee is, the only reason they stay is that your talk is worth their time. Every slide has to earn its place.
+**Your audience owes you nothing.** Most of the time, they don't want to listen to you. Unless they are paid to be there, as a committee is, the only reason they stay is that your talk is worth their time. Every slide has to earn its place.
 
 <div class="rule" markdown="1">
 ### 1. One slide, one message
