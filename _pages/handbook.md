@@ -12,8 +12,6 @@ author_profile: true
 .rule { margin:1.6em 0 2.4em; }
 .rule h3 { margin-bottom:0.2em; }
 .rule .why { margin:0 0 0.8em; color:#555; font-style:italic; }
-.hb-note { background:#f5f5f5; border-radius:6px; padding:0.3em 1.2em 0.4em; margin:1.6em 0 1.2em; }
-.hb-note h4 { margin-top:0.8em; }
 .rule img { width:100%; max-width:680px; border:1px solid #e5e5e5; border-radius:6px; }
 </style>
 
@@ -33,7 +31,9 @@ How we work in the WEAVE Lab. Group members: bookmark this page and use it as a 
 
 For every talk: group meetings, committee meetings, and conferences such as AGU and AMS.
 
-Most of the time, your audience doesn't want to listen to you. Unless they are paid to be there, as a committee is, the only reason they stay is that your talk is worth their time. A talk that breaks these rules wastes it.
+Most of the time, your audience doesn't want to listen to you. Unless they are paid to be there, as a committee is, the only reason they stay is that your talk is worth their time.
+
+It's natural to want to show how much work you've done, with many slides, many figures, and every detail. But that makes your audience work hard to find your point. **Put the effort into your everyday work; in the talk, say less and keep only what matters most.** A group meeting is a safe place to practice this; a job interview is where it counts.
 
 <div class="rule" markdown="1">
 ### 1. One slide, one message
@@ -57,16 +57,6 @@ Most of the time, your audience doesn't want to listen to you. Unless they are p
 ### 4. Bonus: hook first, end on the takeaway
 <p class="why">Not required, but it makes a good talk better. If you can say it in one sentence, you know what you want to convey.</p>
 <img src="/images/handbook/hook-takeaway.svg" alt="Bad: Title, Outline, Data, Results, Thanks. Good: the talk opens with a hook and closes with a takeaway slide carrying the same message.">
-</div>
-
-<div class="hb-note" markdown="1">
-#### A common trap
-
-It's natural to want to show how much work you've done, with many slides, many figures, and every detail. But a long, crowded talk makes your audience work hard to find your point. Speaking without a clear main message has the same effect: it's easy to spend too long on something small.
-
-In a group meeting this is fine; it's a safe place to practice. In a job interview, it matters a lot. So build the habit now: **put the effort into your everyday work, and in the talk, say less and keep only what matters most.**
-
-Your audience is there for your message. Make it easy for them to get it.
 </div>
 
 </div>

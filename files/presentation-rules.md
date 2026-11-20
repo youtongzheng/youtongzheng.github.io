@@ -6,7 +6,9 @@ These rules apply to every talk: group meetings, committee meetings, and confere
 
 ## Why they matter
 
-Most of the time, your audience doesn't want to listen to you. Unless they are paid to be there, as a committee is, the only reason they stay is that your talk is worth their time. A talk that breaks these rules wastes it.
+Most of the time, your audience doesn't want to listen to you. Unless they are paid to be there, as a committee is, the only reason they stay is that your talk is worth their time.
+
+It's natural to want to show how much work you've done, with many slides, many figures, and every detail. But that makes your audience work hard to find your point. Put the effort into your everyday work; in the talk, say less and keep only what matters most. A group meeting is a safe place to practice this; a job interview is where it counts.
 
 ## The rules, in order of importance
 
@@ -43,14 +45,6 @@ Not required, but it makes a good talk better. Why: if you can say it in one sen
 - If possible, show the key takeaway near the start to catch attention.
 - End with a takeaway slide that repeats the 1–3 key messages, not "Thank you" or "Questions?"
 - The hook and the takeaway carry the same message.
-
-## A common trap
-
-It's natural to want to show how much work you've done, with many slides, many figures, and every detail. But a long, crowded talk makes your audience work hard to find your point. Speaking without a clear main message has the same effect: it's easy to spend too long on something small.
-
-In a group meeting this is fine; it's a safe place to practice. In a job interview, it matters a lot. So build the habit now: put the effort into your everyday work, and in the talk, say less and keep only what matters most.
-
-Your audience is there for your message. Make it easy for them to get it.
 
 ## Instructions for an AI agent reviewing slides
 
