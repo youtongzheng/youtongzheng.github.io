@@ -56,7 +56,13 @@ For every talk you give, from group meetings to conferences.
 </div>
 
 <div class="rule" markdown="1">
-### 5. Bonus: hook first, end on the takeaway
+### 5. Keep backup slides for the questions you expect
+<p class="why">Every talk has a time limit, so the main slides carry only what matters most. Everything else goes into backup slides after the end, ready for the questions you expect in Q&amp;A.</p>
+<img src="/images/handbook/backup-slides.svg" alt="Bad: slides ending in Thanks; an audience member asks 'What about winter?' and there is no slide to show. Good: main slides end with a key-message slide, followed by backup slides B1 to B3; the question points straight to B2.">
+</div>
+
+<div class="rule" markdown="1">
+### 6. Bonus: hook first, end on the takeaway
 <p class="why">Not required, but it makes a good talk better. If you can say it in one sentence, you know what you want to convey.</p>
 <img src="/images/handbook/hook-takeaway.svg" alt="Bad: Title, Outline, Data, Results, Thanks. Good: the talk opens with a hook and closes with a takeaway slide carrying the same message.">
 </div>
