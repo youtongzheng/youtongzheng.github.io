@@ -7,6 +7,7 @@
   title: "Check the figure, not just the numbers"
   talks:
     - "Oussama Romdhani, *Can AI agents reproduce a published model figure?*"
+    - "May Pyae Sone, *Data validation: trust data because you tested it*"
   summary: >-
     Oussama built a small benchmark that asks AI agents to reproduce a figure from a published WRF study:
     vertical profiles of turbulent mixing in three simulations. He compared three levels of freedom: an agent
@@ -16,6 +17,10 @@
     grader only checked that an image existed. A vaguer prompt led to correct numbers being marked wrong over
     column names and rounding. The lessons: state the physical rule and the output format in the prompt, and
     check the figure, not just the numbers.
+    May, an undergraduate in the group, added a validation step to her team of agents: before any agent may use
+    the data, it fetches the same reanalysis fields a second, independent way, compares them with the locked
+    archive, and shows her the plots for approval. She tested it on a dry year, a wet year, and a leap year.
+    Her takeaway: "The data didn't change. What changed is I can prove it."
 
 - number: 5
   date: 2026-11-13
