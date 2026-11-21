@@ -7,6 +7,7 @@
   journal: Geophysical Research Letters
   details: 53(15), e2026GL123315
   doi: 10.1029/2026GL123315
+  pdf: P49_2026_Bhattarai_GRL.pdf
   links:
   - {label: "Data & code", url: "https://zenodo.org/records/19674393"}
 - id: P48
@@ -50,6 +51,7 @@
   journal: Geophysical Research Letters
   details: 52(20), e2025GL118740
   doi: 10.1029/2025GL118740
+  pdf: P44_2025_Zheng_GRL.pdf
   links:
   - {label: "Data", url: "https://doi.org/10.5281/zenodo.16943830"}
 - id: P43
@@ -59,6 +61,7 @@
   journal: Geophysical Research Letters
   details: 52(20), e2025GL114885
   doi: 10.1029/2025GL114885
+  pdf: P43_2025_Sarkar_GRL.pdf
   links:
   - {label: "Code", url: "https://doi.org/10.5194/acp-23-12671-2023"}
 - id: P42
@@ -68,6 +71,7 @@
   journal: 'Journal of Geophysical Research: Atmospheres'
   details: 130(20), e2025JD044113
   doi: 10.1029/2025JD044113
+  pdf: P42_2025_Oware_JGR.pdf
   links:
   - {label: "Data & code", url: "https://zenodo.org/records/15271730"}
 - id: P41
@@ -77,6 +81,7 @@
   journal: Geophysical Research Letters
   details: 52(15), e2025GL115163
   doi: 10.1029/2025GL115163
+  pdf: P41_2025_Zhang_GRL.pdf
 - id: P40
   year: 2025
   authors: Lee, S. S., C. H. Jung, J. Choi, Y. J. Yoon, J. Um, <b>Y. Zheng</b>, et al.
@@ -84,6 +89,7 @@
   journal: Atmospheric Chemistry and Physics
   details: 25(2), 705–726
   doi: 10.5194/acp-25-705-2025
+  pdf: P40_2025_Lee_ACP.pdf
 - id: P39
   year: 2024
   authors: Mülmenstädt, J., A. S. Ackerman, A. M. Fridlind, M. Huang, P.-L. Ma, N. Mahfouz, et al. (including <b>Y. Zheng</b>)
@@ -91,6 +97,7 @@
   journal: Atmospheric Chemistry and Physics
   details: 24(23), 13633–13652
   doi: 10.5194/acp-24-13633-2024
+  pdf: P39_2024_Mulmenstadt_ACP.pdf
   links:
   - {label: "Data", url: "https://doi.org/10.5281/zenodo.14286196"}
   - {label: "Code", url: "https://doi.org/10.5281/zenodo.14286145"}
@@ -101,6 +108,7 @@
   journal: Geophysical Research Letters
   details: 51(15), e2024GL109735
   doi: 10.1029/2024GL109735
+  pdf: P38_2024_Zhang_GRL.pdf
   links:
   - {label: "Code", url: "https://doi.org/10.5281/zenodo.12002758"}
 - id: P37
@@ -119,6 +127,7 @@
   journal: Atmospheric Chemistry and Physics
   details: 24(12), 7331–7345
   doi: 10.5194/acp-24-7331-2024
+  pdf: P36_2024_Mulmenstadt_ACP.pdf
   links:
   - {label: "Data", url: "https://doi.org/10.5281/zenodo.10449670"}
   - {label: "Code", url: "https://doi.org/10.5281/zenodo.10449750"}
@@ -170,6 +179,7 @@
   journal: Atmospheric Chemistry and Physics
   details: 23(1), 273–286
   doi: 10.5194/acp-23-273-2023
+  pdf: P30_2023_Lee_ACP.pdf
 - id: P29
   year: 2023
   authors: <b>Zheng, Y.</b>, and Y. Ming
@@ -177,6 +187,7 @@
   journal: Journal of Climate
   details: 36(1), 3–18
   doi: 10.1175/JCLI-D-22-0301.1
+  pdf: P29_2023_Zheng_JCli.pdf
   links:
   - {label: "Code", url: "https://github.com/youtongzheng/Zheng_Ming_2022_JCli"}
 - id: P28
@@ -186,6 +197,7 @@
   journal: npj Climate and Atmospheric Science
   details: 5(1), 64
   doi: 10.1038/s41612-022-00283-1
+  pdf: P28_2022_Su_npjCAS.pdf
   links:
   - {label: "Data", url: "https://doi.org/10.5281/zenodo.5639046"}
 - id: P27
@@ -195,6 +207,7 @@
   journal: Atmospheric Chemistry and Physics
   details: 22(13), 9059–9081
   doi: 10.5194/acp-22-9059-2022
+  pdf: P27_2022_Lee_ACP.pdf
 - id: P26
   year: 2022
   authors: Xu, R., et al. (including <b>Y. Zheng</b>)
@@ -202,6 +215,7 @@
   journal: Nature Communications
   details: 13, 670
   doi: 10.1038/s41467-022-28161-7
+  pdf: P26_2022_Xu_NatCommun.pdf
   links:
   - {label: "Data & code", url: "https://doi.org/10.6084/m9.figshare.15081510"}
 - id: P25
@@ -211,6 +225,7 @@
   journal: Atmospheric Chemistry and Physics
   details: 22(2), 1453–1466
   doi: 10.5194/acp-22-1453-2022
+  pdf: P25_2022_Su_ACP.pdf
 - id: P24
   year: 2021
   authors: <b>Zheng, Y.</b>, <u>H. Zhang†</u>, D. Rosenfeld, S. S. Lee, T. Su, and Z. Li
@@ -218,6 +233,7 @@
   journal: Journal of the Atmospheric Sciences
   details: 78(12), 4089–4102
   doi: 10.1175/JAS-D-21-0108.1
+  pdf: P24_2021_Zheng_JAS.pdf
   links:
   - {label: "Data", url: "https://doi.org/10.5281/zenodo.5548436"}
   - {label: "Code", url: "https://github.com/youtongzheng/Zheng_2021_JAS_WADV_part1"}
@@ -228,6 +244,7 @@
   journal: Atmospheric Chemistry and Physics
   details: 21(22), 16843–16868
   doi: 10.5194/acp-21-16843-2021
+  pdf: P23_2021_Lee_ACP.pdf
 - id: P22
   year: 2021
   authors: <b>Zheng, Y.</b>, Y. Zhu, D. Rosenfeld, and Z. Li
@@ -235,6 +252,7 @@
   journal: Geophysical Research Letters
   details: 48(19), e2021GL094676
   doi: 10.1029/2021GL094676
+  pdf: P22_2021_Zheng_GRL.pdf
   links:
   - {label: "Data", url: "https://doi.org/10.5281/zenodo.5218655"}
   - {label: "Code", url: "https://github.com/youtongzheng/Zheng_2021_GRL_Climatology_CTRC"}
@@ -245,6 +263,7 @@
   journal: Journal of the Atmospheric Sciences
   details: 78(9), 2709–2723
   doi: 10.1175/JAS-D-20-0381.1
+  pdf: P21_2021_Zheng_JAS.pdf
   links:
   - {label: "Code", url: "https://github.com/youtongzheng/Zheng_2021_JAS_SCT_MechnismDenial"}
 - id: P20
@@ -254,6 +273,7 @@
   journal: Geophysical Research Letters
   details: 48(6), e2020GL091881
   doi: 10.1029/2020GL091881
+  pdf: P20_2021_Zheng_GRL.pdf
   links:
   - {label: "Code", url: "https://github.com/youtongzheng/Zheng_2021_GRL_updraft"}
 - id: P19
@@ -263,6 +283,7 @@
   journal: Atmospheric Chemistry and Physics
   details: 20(21), 13379–13397
   doi: 10.5194/acp-20-13379-2020
+  pdf: P19_2020_Zhao_ACP.pdf
 - id: P18
   year: 2020
   authors: Su, T., Z. Li, <b>Y. Zheng</b>, Q. Luan, and J. Guo
@@ -270,6 +291,7 @@
   journal: Geophysical Research Letters
   details: 47(20), e2020GL090041
   doi: 10.1029/2020GL090041
+  pdf: P18_2020_Su_GRL.pdf
 - id: P17
   year: 2020
   authors: Guo, J., X. Chen, T. Su, L. Liu, <b>Y. Zheng</b>, D. Chen, et al.
@@ -277,6 +299,7 @@
   journal: Journal of Climate
   details: 33(21), 9327–9350
   doi: 10.1175/JCLI-D-19-0278.1
+  pdf: P17_2020_Guo_JCli.pdf
 - id: P16
   year: 2020
   authors: <b>Zheng, Y.</b>, D. Rosenfeld, and Z. Li
@@ -284,6 +307,7 @@
   journal: Geophysical Research Letters
   details: 47(14), e2020GL087697
   doi: 10.1029/2020GL087697
+  pdf: P16_2020_Zheng_GRL.pdf
 - id: P15
   year: 2020
   authors: <b>Zheng, Y.</b>, M. Sakradzija, S. S. Lee, and Z. Li
@@ -291,6 +315,7 @@
   journal: Journal of the Atmospheric Sciences
   details: 77(4), 1313–1328
   doi: 10.1175/JAS-D-19-0301.1
+  pdf: P15_2020_Zheng_JAS.pdf
 - id: P14
   year: 2020
   authors: Zhang, J., <b>Y. Zheng</b>, Z. Li, X. Xia, and H. Chen
@@ -305,6 +330,7 @@
   journal: 'Journal of Geophysical Research: Atmospheres'
   details: 124(22), 12227–12243
   doi: 10.1029/2019JD030835
+  pdf: P13_2019_Zheng_JGR.pdf
 - id: P12
   year: 2019
   authors: Li, Z., et al. (including <b>Y. Zheng</b>)
@@ -326,6 +352,7 @@
   journal: Journal of the Atmospheric Sciences
   details: 76(8), 2539–2558
   doi: 10.1175/JAS-D-18-0323.1
+  pdf: P10_2019_Zheng_JAS.pdf
 - id: P09
   year: 2019
   authors: <b>Zheng, Y.</b>, D. Rosenfeld, Y. Zhu, and Z. Li
@@ -333,6 +360,7 @@
   journal: Geophysical Research Letters
   details: 46(8), 4485–4494
   doi: 10.1029/2019GL082094
+  pdf: P09_2019_Zheng_GRL.pdf
 - id: P08
   year: 2019
   authors: Rosenfeld, D., Y. Zhu, M. Wang, <b>Y. Zheng</b>, T. Goren, and S. Yu
@@ -347,6 +375,7 @@
   journal: Geophysical Research Letters
   details: 45(22), 12,560–12,568
   doi: 10.1029/2018GL078382
+  pdf: P07_2018_Zheng_GRL.pdf
 - id: P06
   year: 2018
   authors: <b>Zheng, Y.</b>, D. Rosenfeld, and Z. Li
@@ -354,6 +383,7 @@
   journal: 'Journal of Geophysical Research: Atmospheres'
   details: 123(20), 11,678–11,690
   doi: 10.1029/2018JD028579
+  pdf: P06_2018_Zheng_JGR.pdf
 - id: P05
   year: 2016
   authors: <b>Zheng, Y.</b>, D. Rosenfeld, and Z. Li
@@ -361,6 +391,7 @@
   journal: Geophysical Research Letters
   details: 43(21), 11,407–11,413
   doi: 10.1002/2016GL071185
+  pdf: P05_2016_Zheng_GRL.pdf
 - id: P04
   year: 2016
   authors: Rosenfeld, D., <b>Y. Zheng</b>, E. Hashimshoni, M. L. Pöhlker, A. Jefferson, X. Yu, et al.
@@ -368,6 +399,7 @@
   journal: Proceedings of the National Academy of Sciences
   details: 113(21), 5828–5834
   doi: 10.1073/pnas.1514044113
+  pdf: P04_2016_Rosenfeld_PNAS.pdf
 - id: P03
   year: 2015
   authors: <b>Zheng, Y.</b>, and D. Rosenfeld
@@ -375,6 +407,7 @@
   journal: Geophysical Research Letters
   details: 42(15), 6485–6491
   doi: 10.1002/2015GL064809
+  pdf: P03_2015_Zheng_GRL.pdf
 - id: P02
   year: 2015
   authors: <b>Zheng, Y.</b>, D. Rosenfeld, and Z. Li
@@ -382,6 +415,7 @@
   journal: Journal of the Atmospheric Sciences
   details: 72(6), 2411–2428
   doi: 10.1175/JAS-D-14-0283.1
+  pdf: P02_2015_Zheng_JAS.pdf
 - id: P01
   year: 2014
   authors: Rosenfeld, D., B. Fishman, <b>Y. Zheng</b>, T. Goren, and D. Giguzin
@@ -389,3 +423,4 @@
   journal: Geophysical Research Letters
   details: 41(9), 3259–3265
   doi: 10.1002/2014GL059453
+  pdf: P01_2014_Rosenfeld_GRL.pdf

@@ -27,7 +27,7 @@ author_profile: true
 <ol class="pubs" start="{{ count }}" reversed>
 {%- for p in g.items -%}
   {%- assign last = p.title | slice: -1 -%}
-  <li>{{ p.authors }} ({{ p.year }}). {{ p.title }}{% unless last == "?" %}.{% endunless %} <i>{{ p.journal }}</i>{% if p.details %}, {{ p.details }}{% endif %}.{% if p.doi %} <a href="https://doi.org/{{ p.doi }}">doi:{{ p.doi }}</a>{% endif %}{% for l in p.links %} [<a href="{{ l.url }}">{{ l.label }}</a>]{% endfor %}</li>
+  <li>{{ p.authors }} ({{ p.year }}). {{ p.title }}{% unless last == "?" %}.{% endunless %} <i>{{ p.journal }}</i>{% if p.details %}, {{ p.details }}{% endif %}.{% if p.doi %} <a href="https://doi.org/{{ p.doi }}">doi:{{ p.doi }}</a>{% endif %}{% if p.pdf %} [<a href="{{ '/files/papers/' | append: p.pdf | relative_url }}">PDF</a>]{% endif %}{% for l in p.links %} [<a href="{{ l.url }}">{{ l.label }}</a>]{% endfor %}</li>
 {% endfor %}
 </ol>
 {% assign count = count | minus: g.items.size %}
