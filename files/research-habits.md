@@ -27,7 +27,8 @@ These habits apply to day-to-day research in the group, especially in a student'
 
 ### 4. Take initiative
 
-- Don't wait to be pushed. Youtong's job is to help, not to chase.
+- Don't wait to be pushed. Think through the next step on your own.
+- When stuck and getting nowhere, come to Youtong for help. Youtong's job is to help, not to chase.
 
 ### 5. Share results as a story deck, not a long email
 

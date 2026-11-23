@@ -134,7 +134,7 @@ In your first one or two years I'll be hands-on and work closely with you while 
 
 <div class="rule" markdown="1">
 ### 4. Should I wait for you to tell me what to do next?
-No. Take initiative; don't wait to be pushed. My job is to help you, not to chase you.
+No. Take initiative; don't wait to be pushed. Think through the next step on your own. When you're stuck and getting nowhere, come to me and I'll help. My job is to help you, not to chase you.
 </div>
 
 <div class="rule" markdown="1">
