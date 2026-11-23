@@ -25,17 +25,21 @@ These habits apply to day-to-day research in the group, especially in a student'
 - After that, become more independent step by step: learn new things on your own and bring your own ideas.
 - By the fourth or fifth year, lead your own project.
 
-### 4. Share results as a story deck, not a long email
+### 4. Take initiative
+
+- Don't wait to be pushed. Youtong's job is to help, not to chase.
+
+### 5. Share results as a story deck, not a long email
 
 - Work through the logic first, build a short deck with a clear story (see the one-on-one meeting rules), send it, then meet.
 
-### 5. Working in the lab
+### 6. Working in the lab
 
 - Not required; progress is judged by what you produce.
 - In Youtong's experience, the students seen most often in the lab are usually the most productive.
 - If progress stalls, Youtong will ask you to work in the lab.
 
-### 6. Code and data
+### 7. Code and data
 
 - Formal work must be: a paper, a formal presentation, or an important unpublished result worth revisiting. Keep the scripts, the data and its source, and the settings so it can be rerun months later with the same result.
 

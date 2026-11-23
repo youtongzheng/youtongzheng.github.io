@@ -133,17 +133,22 @@ In your first one or two years I'll be hands-on and work closely with you while 
 </div>
 
 <div class="rule" markdown="1">
-### 4. How should I share my results with you?
+### 4. Should I wait for you to tell me what to do next?
+No. Take initiative; don't wait to be pushed. My job is to help you, not to chase you.
+</div>
+
+<div class="rule" markdown="1">
+### 5. How should I share my results with you?
 Send me a slide deck that tells a story, not a long email. Describing results in a long email is slow for both of us. Work through the logic yourself first, build a short deck with a clear story (see [One-on-one meetings](#one-on-one-meetings)), and send it to me. Then we meet and solve the problem together. One focused discussion beats days of back-and-forth email.
 </div>
 
 <div class="rule" markdown="1">
-### 5. Do I have to work in the lab?
+### 6. Do I have to work in the lab?
 Not as a rule. I judge your progress by what you produce, not by where you sit. Still, in my experience the students I see most often in the lab are usually the most productive ones, and the link is strong. In the lab you get quick feedback from me and can talk problems through with your labmates. If your progress stalls, I'll ask you to work there.
 </div>
 
 <div class="rule" markdown="1">
-### 6. How should I manage my code and data?
+### 7. How should I manage my code and data?
 Make sure your formal work can be reproduced: a paper, a formal presentation, or an important result you haven't published yet but may want to come back to. Keep the scripts, the data and where it came from, and the settings, so that months later you or someone else can rerun them and get the same result.
 </div>
 
