@@ -21,6 +21,7 @@ How we work in the WEAVE Lab. Group members: bookmark this page and use it as a 
 <ul class="hb-toc">
   <li><a href="#presentations">Presentations</a> <span class="dl">· <a href="/files/presentation-rules.md" download="presentation-rules.md">.md</a></span></li>
   <li><a href="#one-on-one-meetings">One-on-one meetings</a> <span class="dl">· <a href="/files/meeting-rules.md" download="meeting-rules.md">.md</a></span></li>
+  <li><a href="#research-habits">Research habits</a> <span class="dl">· <a href="/files/research-habits.md" download="research-habits.md">.md</a></span></li>
 </ul>
 
 <!-- To add a section: add a line to Contents above (with its agent file in files/), then a new <div class="hb-section" markdown="1"> block below, following the existing pattern. -->
@@ -100,6 +101,50 @@ Book a time with me in advance, and email your slides at least 30 minutes before
 ### 3. Bonus: a story up front, every figure in the back
 <p class="why">The best meetings find any figure we need in seconds.</p>
 Bring as many figures as you can. Ideally, the main slides tell the story, so that even reading them without you I can find the key takeaway. Figures outside the story go into supplementary slides at the end; when a new question comes up in our discussion, we can find the figure there quickly.
+</div>
+
+</div>
+
+<div class="hb-section" markdown="1">
+
+## Research habits
+
+For how you do research day to day, especially in your first years.
+
+<div class="rule" markdown="1">
+### 1. What if I make mistakes?
+In your first one or two years I expect mistakes, and I'll help you fix them. What I can't accept is making the same basic mistake again and again. Two are especially common.
+
+*Units.* In our field, a number with the wrong unit is meaningless. Whenever you look at a plot, check the units of every variable first.
+
+*Leaving things to the last minute.* This applies to the candidacy exam, the annual review, abstract submissions and papers. When you rush at the end, things go wrong, and the cost falls on me, your committee, and the people working with you. If this happens once or twice, plan further ahead next time.
+
+The habit behind both is reflection. After something goes wrong, ask why it happened and what you'll do differently. If you reflect regularly, most mistakes stop repeating on their own.
+</div>
+
+<div class="rule" markdown="1">
+### 2. How should I start working with a new dataset or tool?
+Understand it before you use it to answer anything. Don't load all the data and go straight to a final plot for a hard question. First learn the data or tool itself: its uncertainty and its limitations. Make basic plots that show what the data looks like, and run sanity checks, such as whether the values are in a physically reasonable range. Plot the intermediate steps, not just the final figure. When a final result looks strange, these plots tell you whether you've found real physics or a bug.
+</div>
+
+<div class="rule" markdown="1">
+### 3. How independent should I be?
+In your first one or two years I'll be hands-on and work closely with you while you build these habits. After that, I expect you to become more independent step by step: learning new things on your own and coming in with your own ideas. By your fourth or fifth year, you should be leading your project rather than relying on me to guide each step.
+</div>
+
+<div class="rule" markdown="1">
+### 4. How should I share my results with you?
+Send me a slide deck that tells a story, not a long email. Describing results in a long email is slow for both of us. Work through the logic yourself first, build a short deck with a clear story (see [One-on-one meetings](#one-on-one-meetings)), and send it to me. Then we meet and solve the problem together. One focused discussion beats days of back-and-forth email.
+</div>
+
+<div class="rule" markdown="1">
+### 5. Do I have to work in the lab?
+Not as a rule. I judge your progress by what you produce, not by where you sit. Still, in my experience the students I see most often in the lab are usually the most productive ones, and the link is strong. In the lab you get quick feedback from me and can talk problems through with your labmates. If your progress stalls, I'll ask you to work there.
+</div>
+
+<div class="rule" markdown="1">
+### 6. How should I manage my code and data?
+Make sure your formal work can be reproduced: a paper, a formal presentation, or an important result you haven't published yet but may want to come back to. Keep the scripts, the data and where it came from, and the settings, so that months later you or someone else can rerun them and get the same result.
 </div>
 
 </div>
